@@ -1,0 +1,874 @@
+[
+    {
+        "question": "Qual é o principal benefício da computação em nuvem conhecido como elasticidade?",
+        "a": "A capacidade de escalar recursos verticalmente.",
+        "b": "A capacidade de provisionar e desprovisionar recursos automaticamente conforme a necessidade.",
+        "c": "A capacidade de mover dados entre diferentes regiões geográficas.",
+        "d": "A capacidade de pagar apenas pelos recursos que você reserva, independentemente do uso.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual modelo de serviço em nuvem oferece o maior nível de controle sobre o sistema operacional e a infraestrutura?",
+        "a": "SaaS (Software as a Service)",
+        "b": "PaaS (Platform as a Service)",
+        "c": "IaaS (Infrastructure as a Service)",
+        "d": "FaaS (Function as a Service)",
+        "correct": "c"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de PaaS (Platform as a Service) no Azure?",
+        "a": "Azure Virtual Machines",
+        "b": "Azure App Service",
+        "c": "Microsoft 365",
+        "d": "Azure Storage Account",
+        "correct": "b"
+    },
+    {
+        "question": "O que é CapEx (Capital Expenditure) no contexto da computação em nuvem?",
+        "a": "Despesas operacionais contínuas para serviços em nuvem.",
+        "b": "O custo inicial de compra de hardware físico e infraestrutura.",
+        "c": "O custo de licenças de software na nuvem.",
+        "d": "O custo de treinamento de pessoal para usar serviços em nuvem.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual serviço do Azure é usado para criar e gerenciar máquinas virtuais?",
+        "a": "Azure Virtual Machines",
+        "b": "Azure Functions",
+        "c": "Azure App Service",
+        "d": "Azure Kubernetes Service",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure é uma solução de orquestração de contêineres gerenciada baseada em Kubernetes?",
+        "a": "Azure Kubernetes Service (AKS)",
+        "b": "Azure Container Instances (ACI)",
+        "c": "Azure Functions",
+        "d": "Azure App Service",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure é usado para armazenamento de objetos em grande escala, como arquivos de mídia ou backups?",
+        "a": "Azure Blob Storage",
+        "b": "Azure File Storage",
+        "c": "Azure Disk Storage",
+        "d": "Azure Table Storage",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure é usado para hospedar aplicativos web, mobile e API sem gerenciar a infraestrutura subjacente?",
+        "a": "Azure App Service",
+        "b": "Azure Functions",
+        "c": "Azure Virtual Machines",
+        "d": "Azure Kubernetes Service",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure é usado para gerenciamento de identidades e acesso, incluindo logon único e autenticação multifator?",
+        "a": "Azure Active Directory (Azure AD)",
+        "b": "Azure Key Vault",
+        "c": "Microsoft Defender for Cloud",
+        "d": "Azure Policy",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure é usado para coletar, analisar e agir sobre dados de telemetria de seus ambientes Azure e on-premises?",
+        "a": "Azure Monitor",
+        "b": "Azure Advisor",
+        "c": "Microsoft Defender for Cloud",
+        "d": "Azure Policy",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure é usado para armazenar e gerenciar chaves de criptografia, segredos e certificados de forma segura?",
+        "a": "Azure Key Vault",
+        "b": "Microsoft Defender for Cloud",
+        "c": "Azure Policy",
+        "d": "Azure Active Directory",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure permite criar fluxos de trabalho automatizados que integram aplicativos, dados, serviços e sistemas?",
+        "a": "Azure Logic Apps",
+        "b": "Azure Functions",
+        "c": "Azure App Service",
+        "d": "Azure Kubernetes Service",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure é usado para processamento e análise de fluxos de dados em tempo real?",
+        "a": "Azure Stream Analytics",
+        "b": "Azure Synapse Analytics",
+        "c": "Azure Data Lake Storage",
+        "d": "Azure Machine Learning",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure é usado para criar, treinar e implantar modelos de machine learning?",
+        "a": "Azure Machine Learning",
+        "b": "Azure Cognitive Services",
+        "c": "Azure Synapse Analytics",
+        "d": "Azure Data Lake Storage",
+        "correct": "a"
+    },
+    {
+        "question": "Qual conjunto de serviços do Azure fornece ferramentas para planejamento, desenvolvimento, entrega e operações de software (DevOps)?",
+        "a": "Azure DevOps Services",
+        "b": "Azure Pipelines (parte do Azure DevOps)",
+        "c": "Azure Repos (parte do Azure DevOps)",
+        "d": "GitHub (integrado com Azure)",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure é usado para publicar, proteger, transformar, manter e monitorar APIs?",
+        "a": "Azure API Management",
+        "b": "Azure Functions",
+        "c": "Azure App Service",
+        "d": "Azure Logic Apps",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure é usado para backup de dados e recuperação de desastres de cargas de trabalho on-premises e na nuvem?",
+        "a": "Azure Backup",
+        "b": "Azure Site Recovery",
+        "c": "Azure Storage Replication",
+        "d": "Azure Data Lake Storage",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure é usado para orquestrar a replicação, failover e recuperação de máquinas virtuais e servidores físicos?",
+        "a": "Azure Site Recovery",
+        "b": "Azure Backup",
+        "c": "Azure Virtual Machines Scale Sets",
+        "d": "Azure Load Balancer",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure fornece recomendações personalizadas para otimizar seus recursos do Azure em termos de custo, segurança, desempenho, alta disponibilidade e excelência operacional?",
+        "a": "Azure Advisor",
+        "b": "Azure Monitor",
+        "c": "Microsoft Defender for Cloud",
+        "d": "Azure Policy",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure permite criar, atribuir e gerenciar políticas para impor regras e efeitos sobre seus recursos, garantindo a conformidade com os padrões corporativos?",
+        "a": "Azure Policy",
+        "b": "Microsoft Defender for Cloud",
+        "c": "Azure Active Directory",
+        "d": "Azure Blueprints",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure (anteriormente Azure Security Center) é uma plataforma de proteção de cargas de trabalho na nuvem (CWPP) e gerenciamento de postura de segurança na nuvem (CSPM)?",
+        "a": "Microsoft Defender for Cloud",
+        "b": "Azure Policy",
+        "c": "Azure Sentinel (agora Microsoft Sentinel)",
+        "d": "Azure Firewall",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure fornece ferramentas para rastrear, otimizar e gerenciar seus gastos com o Azure?",
+        "a": "Azure Cost Management and Billing",
+        "b": "Azure Advisor",
+        "c": "Azure Monitor",
+        "d": "Azure Policy",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure permite executar código sem servidor em resposta a eventos, sem precisar provisionar ou gerenciar explicitamente a infraestrutura?",
+        "a": "Azure Functions",
+        "b": "Azure App Service",
+        "c": "Azure Virtual Machines",
+        "d": "Azure Kubernetes Service",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure permite executar contêineres Docker rapidamente sem orquestração complexa?",
+        "a": "Azure Container Instances (ACI)",
+        "b": "Azure Kubernetes Service (AKS)",
+        "c": "Azure App Service for Containers",
+        "d": "Azure Virtual Machines",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure fornece uma rede virtual privada e isolada na nuvem?",
+        "a": "Azure Virtual Network (VNet)",
+        "b": "Azure Load Balancer",
+        "c": "Azure Application Gateway",
+        "d": "Azure Traffic Manager",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure distribui tráfego de entrada entre várias máquinas virtuais ou serviços para melhorar a disponibilidade e escalabilidade?",
+        "a": "Azure Load Balancer",
+        "b": "Azure Application Gateway",
+        "c": "Azure Traffic Manager",
+        "d": "Azure Front Door",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure usa DNS para direcionar solicitações de usuários para o ponto de extremidade de serviço mais apropriado com base em um método de roteamento de tráfego?",
+        "a": "Azure Traffic Manager",
+        "b": "Azure Load Balancer",
+        "c": "Azure Application Gateway",
+        "d": "Azure DNS",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure é um balanceador de carga de tráfego da web (camada 7) que permite gerenciar o tráfego para seus aplicativos web?",
+        "a": "Azure Application Gateway",
+        "b": "Azure Load Balancer",
+        "c": "Azure Traffic Manager",
+        "d": "Azure Firewall",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure é usado para hospedar domínios DNS e gerenciar seus registros DNS?",
+        "a": "Azure DNS",
+        "b": "Azure Traffic Manager",
+        "c": "Azure App Service Domains",
+        "d": "Azure Virtual Network",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure é um serviço de segurança de rede gerenciado e baseado em nuvem que protege seus recursos da Azure Virtual Network?",
+        "a": "Azure Firewall",
+        "b": "Network Security Groups (NSGs)",
+        "c": "Azure DDoS Protection",
+        "d": "Microsoft Defender for Cloud",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure permite conectar redes on-premises ao Azure por meio de uma conexão VPN site-to-site ou point-to-site?",
+        "a": "Azure VPN Gateway",
+        "b": "Azure ExpressRoute",
+        "c": "Azure Virtual WAN",
+        "d": "Azure Peering Service",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure fornece uma rede de entrega de conteúdo (CDN) global para entregar conteúdo de alta largura de banda rapidamente aos usuários?",
+        "a": "Azure CDN",
+        "b": "Azure Traffic Manager",
+        "c": "Azure Front Door",
+        "d": "Azure Application Gateway",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure é usado para conectar e gerenciar dispositivos IoT (Internet of Things)?",
+        "a": "Azure IoT Hub",
+        "b": "Azure IoT Central",
+        "c": "Azure Sphere",
+        "d": "Azure Digital Twins",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure é uma plataforma de aplicativos IoT totalmente gerenciada (SaaS) que simplifica a conexão, monitoramento e gerenciamento de ativos IoT em escala?",
+        "a": "Azure IoT Central",
+        "b": "Azure IoT Hub",
+        "c": "Azure Sphere",
+        "d": "Azure Time Series Insights",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure é uma solução de análise de big data que unifica data warehousing empresarial e análise de Big Data?",
+        "a": "Azure Synapse Analytics",
+        "b": "Azure HDInsight",
+        "c": "Azure Databricks",
+        "d": "Azure Data Lake Storage",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure é um serviço de banco de dados NoSQL multimodelo, distribuído globalmente e totalmente gerenciado?",
+        "a": "Azure Cosmos DB",
+        "b": "Azure SQL Database",
+        "c": "Azure Table Storage",
+        "d": "Azure Database for PostgreSQL",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure é um banco de dados relacional como serviço (DBaaS) totalmente gerenciado baseado no mecanismo Microsoft SQL Server?",
+        "a": "Azure SQL Database",
+        "b": "Azure SQL Managed Instance",
+        "c": "SQL Server on Azure VMs",
+        "d": "Azure Cosmos DB",
+        "correct": "a"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de SaaS (Software as a Service)?",
+        "a": "Azure Virtual Machines",
+        "b": "Azure SQL Database",
+        "c": "Microsoft Office 365",
+        "d": "Azure Kubernetes Service",
+        "correct": "c"
+    },
+    {
+        "question": "O que é OpEx (Operational Expenditure) no contexto da computação em nuvem?",
+        "a": "O custo inicial de compra de hardware.",
+        "b": "Despesas contínuas pagas conforme o uso de serviços em nuvem.",
+        "c": "O custo de desenvolvimento de software personalizado.",
+        "d": "O custo de construção de um data center privado.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual modelo de nuvem oferece recursos de computação exclusivamente para uma única organização?",
+        "a": "Nuvem Pública",
+        "b": "Nuvem Privada",
+        "c": "Nuvem Híbrida",
+        "d": "Nuvem Comunitária",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é a principal característica de uma Nuvem Híbrida?",
+        "a": "Todos os recursos são de propriedade e operados pelo provedor de nuvem.",
+        "b": "Combina infraestrutura on-premises (ou nuvem privada) com serviços de nuvem pública.",
+        "c": "Os recursos são compartilhados por várias organizações com interesses comuns.",
+        "d": "Oferece o menor custo para todas as cargas de trabalho.",
+        "correct": "b"
+    },
+    {
+        "question": "O que é 'Alta Disponibilidade' (High Availability) em computação em nuvem?",
+        "a": "A capacidade de recuperar dados após uma falha.",
+        "b": "A capacidade de um sistema de permanecer operacional e acessível por um longo período, minimizando o tempo de inatividade.",
+        "c": "A capacidade de escalar recursos para cima ou para baixo.",
+        "d": "A proteção de dados contra acesso não autorizado.",
+        "correct": "b"
+    },
+    {
+        "question": "O que é 'Recuperação de Desastres' (Disaster Recovery) no Azure?",
+        "a": "Prevenir que desastres aconteçam.",
+        "b": "A capacidade de restaurar serviços e dados após um desastre que causa interrupção significativa.",
+        "c": "Distribuir tráfego entre múltiplos servidores.",
+        "d": "Monitorar a saúde dos serviços em tempo real.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual conceito do Azure se refere a um local geográfico contendo um ou mais datacenters?",
+        "a": "Região (Region)",
+        "b": "Zona de Disponibilidade (Availability Zone)",
+        "c": "Grupo de Recursos (Resource Group)",
+        "d": "Assinatura (Subscription)",
+        "correct": "a"
+    },
+    {
+        "question": "O que são 'Zonas de Disponibilidade' (Availability Zones) no Azure?",
+        "a": "Múltiplas regiões conectadas por redes de baixa latência.",
+        "b": "Datacenters fisicamente separados dentro de uma região do Azure, com energia, refrigeração e rede independentes.",
+        "c": "Contêineres lógicos para recursos do Azure.",
+        "d": "Limites de faturamento para serviços do Azure.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é a função de um 'Grupo de Recursos' (Resource Group) no Azure?",
+        "a": "Definir limites geográficos para implantação de serviços.",
+        "b": "Um contêiner que agrupa recursos relacionados para uma solução do Azure, facilitando o gerenciamento e o faturamento.",
+        "c": "Fornecer isolamento físico para datacenters.",
+        "d": "Controlar o acesso a serviços específicos do Azure.",
+        "correct": "b"
+    },
+    {
+        "question": "O que é o 'Azure Resource Manager' (ARM)?",
+        "a": "Uma ferramenta para monitorar o desempenho dos recursos.",
+        "b": "O serviço de implantação e gerenciamento do Azure que permite criar, atualizar e excluir recursos em sua assinatura.",
+        "c": "Um serviço de banco de dados relacional.",
+        "d": "Uma plataforma para hospedar aplicativos web.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual tipo de armazenamento do Azure é otimizado para armazenar grandes quantidades de dados não estruturados, como texto ou dados binários?",
+        "a": "Azure Blob Storage",
+        "b": "Azure File Storage",
+        "c": "Azure Disk Storage",
+        "d": "Azure Table Storage",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure oferece compartilhamentos de arquivos totalmente gerenciados na nuvem que são acessíveis via protocolo SMB e NFS?",
+        "a": "Azure File Storage",
+        "b": "Azure Blob Storage",
+        "c": "Azure Disk Storage",
+        "d": "Azure NetApp Files",
+        "correct": "a"
+    },
+    {
+        "question": "Qual dos seguintes é um benefício do uso de 'Network Security Groups' (NSGs) no Azure?",
+        "a": "Balancear a carga de tráfego para aplicativos web.",
+        "b": "Filtrar o tráfego de rede de e para recursos do Azure em uma VNet.",
+        "c": "Conectar redes on-premises ao Azure.",
+        "d": "Proteger contra ataques DDoS.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual serviço do Azure ajuda a proteger seus aplicativos contra ataques comuns baseados na web, como injeção de SQL e cross-site scripting?",
+        "a": "Azure Web Application Firewall (WAF) - frequentemente associado ao Application Gateway ou Azure Front Door",
+        "b": "Azure Firewall",
+        "c": "Network Security Groups (NSGs)",
+        "d": "Azure DDoS Protection",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure fornece proteção contra ataques de negação de serviço distribuído (DDoS)?",
+        "a": "Azure DDoS Protection",
+        "b": "Azure Firewall",
+        "c": "Network Security Groups (NSGs)",
+        "d": "Azure Web Application Firewall (WAF)",
+        "correct": "a"
+    },
+    {
+        "question": "O que é 'Autenticação Multifator' (MFA) no Azure AD?",
+        "a": "Um método de logon único para múltiplos aplicativos.",
+        "b": "Um processo de segurança que requer que os usuários forneçam mais de uma forma de verificação para provar sua identidade.",
+        "c": "Uma política para restringir o acesso a recursos com base na localização.",
+        "d": "Uma ferramenta para gerenciar senhas de forma segura.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual ferramenta de linha de comando multiplataforma é usada para gerenciar recursos do Azure?",
+        "a": "Azure CLI",
+        "b": "Azure PowerShell",
+        "c": "Azure Cloud Shell",
+        "d": "Azure Portal",
+        "correct": "a"
+    },
+    {
+        "question": "O que é o 'Azure Portal'?",
+        "a": "Uma interface de linha de comando para gerenciar o Azure.",
+        "b": "Um console de gerenciamento unificado baseado na web para criar, gerenciar e monitorar todos os seus recursos do Azure.",
+        "c": "Um serviço para automatizar implantações de infraestrutura.",
+        "d": "Uma biblioteca de SDKs para interagir com serviços do Azure.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual conceito do Azure permite definir e impor padrões e avaliar a conformidade em escala para suas implantações de recursos?",
+        "a": "Azure Blueprints",
+        "b": "Azure Policy",
+        "c": "Role-Based Access Control (RBAC)",
+        "d": "Management Groups",
+        "correct": "a"
+    },
+    {
+        "question": "O que é 'Role-Based Access Control' (RBAC) no Azure?",
+        "a": "Um sistema para criptografar dados em repouso.",
+        "b": "Um método para gerenciar o acesso a recursos do Azure, atribuindo permissões a usuários, grupos ou entidades de serviço por meio de funções.",
+        "c": "Uma política para garantir que as senhas sejam complexas.",
+        "d": "Um serviço para monitorar atividades suspeitas.",
+        "correct": "b"
+    },
+    {
+        "question": "Onde você pode encontrar informações oficiais da Microsoft sobre conformidade, privacidade, segurança e transparência dos serviços do Azure?",
+        "a": "Azure Trust Center (Centro de Confiabilidade do Azure)",
+        "b": "Azure Portal",
+        "c": "Microsoft Learn",
+        "d": "Azure Advisor",
+        "correct": "a"
+    },
+    {
+        "question": "Qual é a principal finalidade de uma 'Assinatura' (Subscription) do Azure?",
+        "a": "Agrupar usuários para fins de autenticação.",
+        "b": "Um contêiner lógico para recursos e um limite de faturamento.",
+        "c": "Definir a localização geográfica dos seus recursos.",
+        "d": "Fornecer isolamento de rede para máquinas virtuais.",
+        "correct": "b"
+    },
+    {
+        "question": "O que são 'Management Groups' (Grupos de Gerenciamento) no Azure?",
+        "a": "Grupos de máquinas virtuais com a mesma configuração.",
+        "b": "Contêineres que ajudam a gerenciar acesso, políticas e conformidade em várias assinaturas.",
+        "c": "Grupos de usuários com as mesmas permissões de acesso.",
+        "d": "Coleções de modelos ARM para implantação.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um serviço de computação 'serverless' (sem servidor) no Azure?",
+        "a": "Azure Virtual Machines",
+        "b": "Azure Functions",
+        "c": "Azure Kubernetes Service (AKS)",
+        "d": "Azure Dedicated Host",
+        "correct": "b"
+    },
+    {
+        "question": "Qual tier de armazenamento do Azure Blob Storage é otimizado para dados acessados com pouca frequência que podem ser armazenados por pelo menos 30 dias e tolerar algumas horas de latência de recuperação?",
+        "a": "Hot tier",
+        "b": "Cool tier",
+        "c": "Archive tier",
+        "d": "Premium tier",
+        "correct": "b"
+    },
+    {
+        "question": "Qual tier de armazenamento do Azure Blob Storage é projetado para dados raramente acessados que podem tolerar várias horas de latência de recuperação e são armazenados por pelo menos 180 dias?",
+        "a": "Hot tier",
+        "b": "Cool tier",
+        "c": "Archive tier",
+        "d": "Premium tier",
+        "correct": "c"
+    },
+    {
+        "question": "Qual serviço do Azure fornece uma plataforma baseada em Apache Hadoop para análise de big data?",
+        "a": "Azure HDInsight",
+        "b": "Azure Synapse Analytics",
+        "c": "Azure Databricks",
+        "d": "Azure Data Lake Analytics",
+        "correct": "a"
+    },
+    {
+        "question": "Qual serviço do Azure é uma plataforma de análise baseada em Apache Spark otimizada para o Microsoft Azure?",
+        "a": "Azure Databricks",
+        "b": "Azure HDInsight",
+        "c": "Azure Synapse Analytics Spark Pools",
+        "d": "Azure Machine Learning",
+        "correct": "a"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um serviço de IA pré-construído no Azure, parte dos Cognitive Services?",
+        "a": "Azure Machine Learning Studio",
+        "b": "Azure Text to Speech (Serviço de Fala)",
+        "c": "Um modelo de regressão personalizado treinado no Azure ML.",
+        "d": "Um cluster Apache Spark no Azure Databricks.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual serviço do Azure permite criar bots de conversação inteligentes?",
+        "a": "Azure Bot Service",
+        "b": "Azure Functions",
+        "c": "Azure Logic Apps",
+        "d": "Azure Cognitive Search",
+        "correct": "a"
+    },
+    {
+        "question": "O que é o 'Azure Marketplace'?",
+        "a": "Um local para comprar hardware certificado pelo Azure.",
+        "b": "Uma loja online que oferece aplicativos e serviços de parceiros da Microsoft e de terceiros, certificados para serem executados no Azure.",
+        "c": "Um fórum para desenvolvedores do Azure.",
+        "d": "Um serviço para gerenciar licenças de software do Azure.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é a principal vantagem de usar 'Azure ExpressRoute'?",
+        "a": "Fornece uma conexão VPN criptografada pela internet pública.",
+        "b": "Permite estender suas redes on-premises para a nuvem da Microsoft por meio de uma conexão privada dedicada, oferecendo maior confiabilidade, velocidades mais rápidas e menor latência.",
+        "c": "Balanceia a carga de tráfego entre várias regiões do Azure.",
+        "d": "Protege aplicativos web contra explorações comuns.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual ferramenta do Azure permite criar e gerenciar recursos usando modelos declarativos JSON (ARM Templates)?",
+        "a": "Azure Resource Manager (ARM)",
+        "b": "Azure CLI",
+        "c": "Azure PowerShell",
+        "d": "Azure Portal",
+        "correct": "a"
+    },
+    {
+        "question": "O que é 'escalabilidade vertical' (scale up)?",
+        "a": "Adicionar mais instâncias de um recurso.",
+        "b": "Aumentar a capacidade de um recurso existente (ex: adicionar mais CPU ou RAM a uma VM).",
+        "c": "Distribuir a carga entre múltiplos recursos.",
+        "d": "Replicar dados para outra região.",
+        "correct": "b"
+    },
+    {
+        "question": "O que é 'escalabilidade horizontal' (scale out)?",
+        "a": "Aumentar a capacidade de um recurso existente.",
+        "b": "Adicionar mais instâncias de um recurso para distribuir a carga (ex: adicionar mais VMs a um scale set).",
+        "c": "Mover um recurso para um datacenter maior.",
+        "d": "Fazer backup de um recurso.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de 'responsabilidade compartilhada' na nuvem para um serviço IaaS como Azure Virtual Machines?",
+        "a": "A Microsoft é responsável por proteger o sistema operacional e os dados do cliente.",
+        "b": "O cliente é responsável pela segurança física do datacenter.",
+        "c": "A Microsoft gerencia a infraestrutura física, e o cliente é responsável por proteger o sistema operacional, aplicativos e dados.",
+        "d": "O cliente não tem responsabilidades de segurança.",
+        "correct": "c"
+    },
+    {
+        "question": "Qual é o propósito do 'Azure Service Health'?",
+        "a": "Monitorar o desempenho de seus aplicativos.",
+        "b": "Fornecer informações personalizadas sobre como interrupções de serviço do Azure podem afetar seus recursos, além de notificações sobre manutenção planejada.",
+        "c": "Otimizar os custos dos seus recursos do Azure.",
+        "d": "Gerenciar políticas de conformidade.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um fator que pode afetar os custos no Azure?",
+        "a": "O número de usuários no Azure Portal.",
+        "b": "O tipo de recurso, a localização (região) e o uso (ex: horas de computação, quantidade de armazenamento).",
+        "c": "A quantidade de documentação do Azure que você lê.",
+        "d": "O número de grupos de recursos que você cria.",
+        "correct": "b"
+    },
+    {
+        "question": "O que é um 'SLA' (Service Level Agreement) no contexto do Azure?",
+        "a": "Um contrato que descreve os termos de licenciamento de software.",
+        "b": "Um compromisso da Microsoft sobre o tempo de atividade e a conectividade de um serviço do Azure.",
+        "c": "Um guia de melhores práticas para configurar serviços.",
+        "d": "Um relatório de conformidade para um serviço específico.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual ferramenta pode ser usada para estimar o custo mensal de serviços do Azure antes de provisioná-los?",
+        "a": "Calculadora de Preços do Azure (Azure Pricing Calculator)",
+        "b": "Azure Cost Management",
+        "c": "Azure Advisor",
+        "d": "Azure Monitor",
+        "correct": "a"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um serviço de banco de dados relacional PaaS no Azure?",
+        "a": "Azure Cosmos DB",
+        "b": "Azure SQL Database",
+        "c": "Azure Blob Storage",
+        "d": "SQL Server em uma Máquina Virtual do Azure",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é a principal diferença entre Azure SQL Database e Azure SQL Managed Instance?",
+        "a": "SQL Database é NoSQL, enquanto SQL Managed Instance é relacional.",
+        "b": "SQL Managed Instance oferece quase 100% de compatibilidade com SQL Server on-premises, ideal para migrações lift-and-shift, enquanto SQL Database é um serviço de banco de dados mais genérico.",
+        "c": "SQL Database não suporta T-SQL.",
+        "d": "SQL Managed Instance é mais barato para pequenas bases de dados.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual serviço do Azure é uma oferta de 'Desktop como Serviço' (DaaS) que permite acessar desktops e aplicativos Windows virtualizados na nuvem?",
+        "a": "Azure Virtual Desktop (anteriormente Windows Virtual Desktop)",
+        "b": "Azure App Service",
+        "c": "Azure RemoteApp (descontinuado, mas o conceito é similar)",
+        "d": "Azure Virtual Machines com RDP",
+        "correct": "a"
+    },
+    {
+        "question": "Qual dos seguintes é um benefício da 'tolerância a falhas' (fault tolerance)?",
+        "a": "Reduzir o custo dos recursos.",
+        "b": "Permitir que um sistema continue operando mesmo se um ou mais de seus componentes falharem.",
+        "c": "Aumentar o desempenho de um único componente.",
+        "d": "Simplificar a arquitetura do sistema.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual tipo de replicação do Azure Storage copia seus dados para uma região secundária a centenas de quilômetros de distância da região primária?",
+        "a": "Locally-redundant storage (LRS)",
+        "b": "Zone-redundant storage (ZRS)",
+        "c": "Geo-redundant storage (GRS)",
+        "d": "Read-access geo-redundant storage (RA-GRS)",
+        "correct": "c"
+    },
+    {
+        "question": "Qual é a principal função do Azure Front Door?",
+        "a": "Proteger redes virtuais com um firewall gerenciado.",
+        "b": "Fornecer uma plataforma de entrega de aplicativos moderna, escalável e segura com balanceamento de carga global HTTP/HTTPS e aceleração de conteúdo.",
+        "c": "Conectar redes on-premises ao Azure de forma privada.",
+        "d": "Hospedar domínios DNS.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'recurso' (resource) no Azure?",
+        "a": "Uma assinatura do Azure.",
+        "b": "Uma máquina virtual, uma conta de armazenamento ou um banco de dados SQL.",
+        "c": "Um grupo de gerenciamento.",
+        "d": "Uma região do Azure.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é o propósito de 'tags' (etiquetas) no Azure?",
+        "a": "Controlar o acesso aos recursos.",
+        "b": "Aplicar metadados aos recursos do Azure para organizá-los logicamente, geralmente para fins de faturamento ou gerenciamento.",
+        "c": "Definir a localização geográfica dos recursos.",
+        "d": "Criptografar os dados dos recursos.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual serviço do Azure fornece um ambiente de shell interativo, autenticado e acessível pelo navegador para gerenciar recursos do Azure usando Bash ou PowerShell?",
+        "a": "Azure Cloud Shell",
+        "b": "Azure CLI instalado localmente",
+        "c": "Azure PowerShell instalado localmente",
+        "d": "Windows Terminal",
+        "correct": "a"
+    },
+    {
+        "question": "Qual dos seguintes descreve melhor o conceito de 'Defesa em Profundidade' (Defense in Depth) na segurança do Azure?",
+        "a": "Usar apenas um único mecanismo de segurança forte.",
+        "b": "Uma estratégia de segurança em camadas que usa múltiplos mecanismos de defesa para proteger os dados e recursos.",
+        "c": "Focar apenas na segurança do perímetro da rede.",
+        "d": "Confiar exclusivamente na autenticação do usuário.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual serviço do Microsoft Azure é um SIEM (Security Information and Event Management) e SOAR (Security Orchestration, Automation and Response) nativo da nuvem?",
+        "a": "Microsoft Sentinel (anteriormente Azure Sentinel)",
+        "b": "Microsoft Defender for Cloud",
+        "c": "Azure Monitor",
+        "d": "Azure Policy",
+        "correct": "a"
+    },
+    {
+        "question": "Qual é a principal diferença entre autenticação e autorização?",
+        "a": "Autenticação verifica quem você é, autorização verifica o que você tem permissão para fazer.",
+        "b": "Autorização verifica quem você é, autenticação verifica o que você tem permissão para fazer.",
+        "c": "São termos intercambiáveis para o mesmo processo.",
+        "d": "Autenticação é usada para redes, autorização para aplicativos.",
+        "correct": "a"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um serviço de 'Identidade como Serviço' (IDaaS) fornecido pelo Azure?",
+        "a": "Azure Virtual Machines",
+        "b": "Azure Active Directory (Azure AD)",
+        "c": "Azure Storage",
+        "d": "Azure Monitor",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é o propósito de um 'lock' (bloqueio) de recurso no Azure?",
+        "a": "Criptografar o recurso.",
+        "b": "Impedir que outros usuários modifiquem ou excluam acidentalmente recursos críticos.",
+        "c": "Fazer backup do recurso.",
+        "d": "Monitorar o uso do recurso.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um serviço de 'Internet das Coisas' (IoT) no Azure?",
+        "a": "Azure App Service",
+        "b": "Azure IoT Hub",
+        "c": "Azure SQL Database",
+        "d": "Azure Virtual Network",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é a principal vantagem de usar 'Azure Arc'?",
+        "a": "Fornecer armazenamento de baixo custo para arquivamento.",
+        "b": "Estender o gerenciamento e os serviços do Azure para qualquer infraestrutura, incluindo on-premises, multicloud e edge.",
+        "c": "Criar aplicativos web sem código.",
+        "d": "Analisar grandes volumes de dados em tempo real.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um serviço de 'Big Data' no Azure?",
+        "a": "Azure Key Vault",
+        "b": "Azure Synapse Analytics",
+        "c": "Azure Active Directory",
+        "d": "Azure VPN Gateway",
+        "correct": "b"
+    },
+    {
+        "question": "Qual serviço do Azure é uma plataforma de desenvolvimento de baixo código que permite criar aplicativos personalizados com pouca ou nenhuma codificação (parte da Power Platform, mas relevante para integração com Azure)?",
+        "a": "Power Apps (integrável com Azure)",
+        "b": "Azure Machine Learning",
+        "c": "Azure Functions",
+        "d": "Visual Studio Code",
+        "correct": "a"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um serviço de 'Inteligência Artificial' (IA) no Azure?",
+        "a": "Azure Load Balancer",
+        "b": "Azure Cognitive Services",
+        "c": "Azure File Storage",
+        "d": "Azure DNS",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é o propósito do 'Azure Well-Architected Framework'?",
+        "a": "Um conjunto de padrões de conformidade obrigatórios.",
+        "b": "Um conjunto de princípios orientadores que podem ser usados para melhorar a qualidade de uma carga de trabalho na nuvem, abrangendo custo, operações, desempenho, confiabilidade e segurança.",
+        "c": "Uma ferramenta para estimar custos no Azure.",
+        "d": "Um serviço para automatizar implantações.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um pilar do Azure Well-Architected Framework?",
+        "a": "Inovação Rápida",
+        "b": "Otimização de Custos",
+        "c": "Integração Contínua",
+        "d": "Escalabilidade Manual",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é a principal diferença entre um 'serviço público' e um 'serviço privado' no contexto de pontos de extremidade do Azure?",
+        "a": "Serviços públicos são sempre gratuitos.",
+        "b": "Serviços públicos são acessíveis pela internet, enquanto serviços privados (usando Private Link/Private Endpoint) restringem o acesso à sua rede virtual.",
+        "c": "Serviços privados oferecem SLAs mais altos.",
+        "d": "Serviços públicos não podem ser protegidos.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um serviço de 'armazenamento de arquivos' no Azure?",
+        "a": "Azure Blob Storage",
+        "b": "Azure File Storage",
+        "c": "Azure Queue Storage",
+        "d": "Azure Table Storage",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é a principal função do 'Azure Queue Storage'?",
+        "a": "Armazenar grandes objetos binários.",
+        "b": "Fornecer armazenamento de mensagens para comunicação assíncrona entre componentes de aplicativos.",
+        "c": "Hospedar bancos de dados NoSQL.",
+        "d": "Oferecer compartilhamentos de arquivos SMB.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual serviço do Azure é usado para criar uma instância dedicada de hardware físico para hospedar suas máquinas virtuais do Azure, fornecendo isolamento e ajudando a atender requisitos de conformidade?",
+        "a": "Azure Dedicated Host",
+        "b": "Azure Virtual Machine Scale Sets",
+        "c": "Azure Reserved Virtual Machine Instances",
+        "d": "Azure Spot Virtual Machines",
+        "correct": "a"
+    },
+    {
+        "question": "Qual opção de compra de VM do Azure oferece descontos significativos em troca de um compromisso de longo prazo (1 ou 3 anos)?",
+        "a": "Pay-as-you-go (Pagamento conforme o uso)",
+        "b": "Azure Reserved Virtual Machine Instances (RIs)",
+        "c": "Azure Spot Virtual Machines",
+        "d": "Azure Hybrid Benefit",
+        "correct": "b"
+    },
+    {
+        "question": "Qual opção de VM do Azure permite aproveitar a capacidade de computação não utilizada do Azure com grandes descontos, mas pode ser desalocada com pouco aviso?",
+        "a": "Pay-as-you-go",
+        "b": "Azure Reserved Virtual Machine Instances",
+        "c": "Azure Spot Virtual Machines",
+        "d": "Azure Dedicated Host",
+        "correct": "c"
+    },
+    {
+        "question": "O que é o 'Azure Hybrid Benefit'?",
+        "a": "Um desconto para usar apenas serviços de nuvem híbrida.",
+        "b": "Um benefício de licenciamento que permite usar suas licenças locais do Windows Server e SQL Server com Software Assurance no Azure, resultando em economia de custos.",
+        "c": "Uma ferramenta para migrar cargas de trabalho híbridas.",
+        "d": "Um tipo especial de assinatura do Azure para ambientes híbridos.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um serviço de 'Rede' no Azure?",
+        "a": "Azure Cosmos DB",
+        "b": "Azure Virtual Network (VNet)",
+        "c": "Azure Machine Learning",
+        "d": "Azure Blob Storage",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é a principal função do 'Azure Peering Service'?",
+        "a": "Conectar redes virtuais dentro da mesma região.",
+        "b": "Melhorar a conectividade com os serviços da Microsoft Cloud, como Microsoft 365 e Dynamics 365, por meio de uma conexão otimizada com a rede global da Microsoft.",
+        "c": "Fornecer balanceamento de carga para aplicativos web.",
+        "d": "Proteger contra ataques DDoS.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um serviço de 'Segurança' no Azure?",
+        "a": "Azure Logic Apps",
+        "b": "Microsoft Defender for Cloud",
+        "c": "Azure Stream Analytics",
+        "d": "Azure App Service",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é o propósito do 'Azure Information Protection' (AIP), agora parte do Microsoft Purview Information Protection?",
+        "a": "Proteger a infraestrutura de rede do Azure.",
+        "b": "Ajudar as organizações a classificar, rotular e proteger seus documentos e e-mails confidenciais.",
+        "c": "Gerenciar chaves de criptografia para bancos de dados.",
+        "d": "Monitorar ameaças de segurança em tempo real.",
+        "correct": "b"
+    }
+]
