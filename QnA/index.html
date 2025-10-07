@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Certificações</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1 id="main-title">Quiz Certificações</h1>
+    <div class="tab-container">
+        <button class="tab-button active" data-tab="quiz">Quiz</button>
+        <button class="tab-button" data-tab="add">Adicionar Perguntas</button>
+    </div>
+    <div class="quiz-container tab-content active" id="quiz-tab">
+        <button id="export-group" class="export-button" title="Exportar perguntas deste grupo">
+            💾
+        </button>
+        <img id="certification-badge" src="img/dp900.png" alt="Certificação">
+        <h2 id="quiz-title">Quiz DP-900</h2>
+        <div class="select-container">
+            <div class="quiz-header">
+                <div class="select-group">
+                    <label>Certificação:</label>
+                    <select id="certification-select">
+                        <option value="quizDP900.json" data-badge="img/dp900.png">DP-900</option>
+                        <option value="quizSC900.json" data-badge="img/sc900.png">SC-900</option>
+                        <option value="quizPL900.json" data-badge="img/pl900.png">PL-900</option>
+                        <option value="quizAZ900.json" data-badge="img/az900.png">AZ-900</option>
+                        <option value="quizMS900.json" data-badge="img/ms900.png">MS-900</option>
+                        <option value="quizAI900.json" data-badge="img/ai900.png">AI-900</option>
+                    </select>
+                </div>
+                <div class="select-group">
+                    <label>Grupo de Perguntas:</label>
+                    <select id="question-group-select">
+                        <option value="default">Grupo Padrão</option>
+                    </select>
+                </div>
+
+            </div>
+        </div>
+        <div id="progress-container">
+            <div id="progress-bar"></div>
+        </div>
+        <div id="counter">0/50 | 0 erradas | 0 certas</div>
+        <div id="quiz"></div>
+        <h3 id="feedback"></h3>
+        <button id="submit">Responder</button>
+        <div id="results">
+            <div class="results-container" style="display: none;">
+                <div class="wrong-questions">
+                    <h3>Perguntas Erradas:</h3>
+                    <div id="wrong-questions-list"></div>
+                </div>
+                <div class="results-chart">
+                    <canvas id="results-chart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="quiz-container tab-content" id="add-tab">
+        <h2>Adicionar Novas Perguntas</h2>
+        <div class="input-method-toggle">
+            <button class="method-button active" data-method="form">Formulário</button>
+            <button class="method-button" data-method="json">JSON</button>
+        </div>
+        
+        <select id="add-certification-select">
+            <option value="quizDP900.json">DP-900</option>
+            <option value="quizSC900.json">SC-900</option>
+            <option value="quizPL900.json">PL-900</option>
+            <option value="quizAZ900.json">AZ-900</option>
+            <option value="quizMS900.json">MS-900</option>
+            <option value="quizAI900.json">AI-900</option>
+        </select>
+
+        <div id="json-method" class="input-method" style="display: none;">
+            <div id="drag-drop-zone" class="drag-drop-zone">
+                <p>Arraste e solte um arquivo JSON aqui ou</p>
+                <input type="file" id="file-input" accept=".json" style="display: none;">
+                <button id="select-file-btn">Selecione um arquivo</button>
+                <p>Ou cole o conteúdo JSON abaixo:</p>
+            </div>
+            <textarea id="json-input" placeholder="Cole aqui o JSON com as novas perguntas..."></textarea>
+            <div id="json-feedback"></div>
+            <button id="add-questions-json">Adicionar Perguntas (JSON)</button>
+        </div>
+
+        <div id="form-method" class="input-method">
+            <form id="add-question-form" class="question-form">
+                <div class="form-group">
+                    <label>Grupo de Perguntas:</label>
+                    <div class="group-selection">
+                        <select id="add-group-select">
+                            <option value="new">Criar Novo Grupo</option>
+                            <option value="A">Grupo A</option>
+                        </select>
+                    </div>
+                    <div id="new-group-container" style="display: none;">
+                        <input type="text" id="new-group-input" placeholder="Digite o nome do novo grupo">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Enunciado da Pergunta:</label>
+                    <textarea id="question-text" placeholder="Digite o enunciado da pergunta..."></textarea>
+                </div>
+                <div id="alternatives-container">
+                    <!-- As alternativas serão adicionadas aqui dinamicamente -->
+                </div>
+                <button type="button" id="add-alternative" class="secondary-button">+ Adicionar Alternativa</button>
+                <button type="submit" id="save-question">Salvar Pergunta</button>
+            </form>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+    <footer id="footer">
+        Desenvolvido por <a href="https://pessoavictor.github.io/Portfolio/" target="_blank">Victor Pessoa</a> | Modificado por <a href="www.linkedin.com/in/toledo-de-matheus" target="_blank">M. Daniel de Toledo</a>
+    </footer>
+</body>
+</html>

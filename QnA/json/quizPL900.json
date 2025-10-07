@@ -1,0 +1,1298 @@
+[
+    {
+        "question": "Qual componente da Power Platform é usado para criar aplicativos personalizados com pouco ou nenhum código para resolver desafios de negócios?",
+        "a": "Power Apps",
+        "b": "Power BI",
+        "c": "Power Automate",
+        "d": "Microsoft Copilot Studio",
+        "correct": "a"
+    },
+    {
+        "question": "Qual componente da Power Platform é usado para transformar dados brutos em insights acionáveis por meio de visualizações e relatórios interativos?",
+        "a": "Power BI",
+        "b": "Power Apps",
+        "c": "Power Automate",
+        "d": "Dataverse",
+        "correct": "a"
+    },
+    {
+        "question": "Qual componente da Power Platform é usado para automatizar processos de negócios repetitivos e fluxos de trabalho entre diferentes aplicativos e serviços?",
+        "a": "Power Automate",
+        "b": "Power BI",
+        "c": "Power Apps",
+        "d": "AI Builder",
+        "correct": "a"
+    },
+    {
+        "question": "Qual componente da Power Platform (anteriormente Power Virtual Agents) permite criar chatbots inteligentes para interagir com clientes e funcionários?",
+        "a": "Microsoft Copilot Studio",
+        "b": "Power BI",
+        "c": "Power Apps",
+        "d": "Power Automate",
+        "correct": "a"
+    },
+    {
+        "question": "O que é o Microsoft Dataverse e qual seu principal valor para a Power Platform?",
+        "a": "Uma ferramenta de visualização de dados para Power BI.",
+        "b": "Uma plataforma de dados de baixo código, segura e escalável, que permite armazenar e gerenciar dados usados por aplicativos de negócios da Power Platform e Dynamics 365.",
+        "c": "Um serviço para automatizar fluxos de trabalho complexos.",
+        "d": "Um tipo de conector premium para bancos de dados externos.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é a principal função dos 'Conectores' na Power Platform?",
+        "a": "Armazenar dados de aplicativos de forma segura.",
+        "b": "Atuar como pontes que permitem que os componentes da Power Platform (Power Apps, Power Automate, etc.) se conectem e interajam com centenas de outros aplicativos, serviços e fontes de dados na nuvem e on-premises.",
+        "c": "Criar interfaces de usuário para Power Apps.",
+        "d": "Analisar o desempenho e o uso dos fluxos do Power Automate.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual tipo de Power App é ideal para criar uma experiência de usuário altamente personalizada e com design flexível, começando com uma tela em branco e adicionando controles?",
+        "a": "Aplicativo de tela (Canvas app)",
+        "b": "Aplicativo orientado a modelo (Model-driven app)",
+        "c": "Power Pages",
+        "d": "Aplicativo de página personalizada (Custom page)",
+        "correct": "a"
+    },
+    {
+        "question": "Qual tipo de Power App é construído sobre o Dataverse e tem seu design e layout amplamente determinados pelos componentes de dados (tabelas, formulários, exibições) que você adiciona?",
+        "a": "Aplicativo orientado a modelo (Model-driven app)",
+        "b": "Aplicativo de tela (Canvas app)",
+        "c": "Dashboard do Power BI",
+        "d": "Fluxo do Power Automate",
+        "correct": "a"
+    },
+    {
+        "question": "No Power BI, qual ferramenta integrada ao Power BI Desktop é usada para conectar, limpar, transformar e modelar dados de várias fontes?",
+        "a": "Power Query Editor",
+        "b": "DAX Studio",
+        "c": "Power BI Service",
+        "d": "Power BI Report Builder",
+        "correct": "a"
+    },
+    {
+        "question": "Qual linguagem de fórmulas é usada no Power BI para criar medidas, colunas calculadas e tabelas calculadas personalizadas para análises de dados avançadas?",
+        "a": "DAX (Data Analysis Expressions)",
+        "b": "SQL (Structured Query Language)",
+        "c": "Python",
+        "d": "M Language (usada no Power Query Editor)",
+        "correct": "a"
+    },
+    {
+        "question": "Qual dos seguintes é um tipo de fluxo que pode ser criado no Power Automate para responder a eventos ou ser iniciado manualmente?",
+        "a": "Fluxo da nuvem (Cloud flow)",
+        "b": "Fluxo de dados (Dataflow)",
+        "c": "Fluxo de relatório (Report flow)",
+        "d": "Fluxo de aplicativo (App flow)",
+        "correct": "a"
+    },
+    {
+        "question": "O que são 'gatilhos' (triggers) no Power Automate?",
+        "a": "As ações específicas que um fluxo executa para realizar uma tarefa.",
+        "b": "O evento inicial que faz com que um fluxo automatizado comece a ser executado.",
+        "c": "As condições lógicas usadas para ramificar um fluxo em diferentes caminhos.",
+        "d": "Os conectores que permitem a comunicação com outros serviços.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual componente da Power Platform permite adicionar inteligência artificial aos seus aplicativos e fluxos usando modelos pré-construídos ou treinando modelos personalizados sem precisar ser um cientista de dados?",
+        "a": "AI Builder",
+        "b": "Power BI Premium",
+        "c": "Dataverse AI features",
+        "d": "Microsoft Copilot Studio Insights",
+        "correct": "a"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um modelo pré-construído no AI Builder que pode extrair texto, pares chave-valor e tabelas de documentos?",
+        "a": "Modelo de previsão de vendas personalizado.",
+        "b": "Modelo de processamento de formulários (Form processing).",
+        "c": "Modelo de classificação de imagem para objetos específicos da sua empresa.",
+        "d": "Modelo de chatbot para atendimento ao cliente.",
+        "correct": "b"
+    },
+    {
+        "question": "No Microsoft Copilot Studio, o que são 'Tópicos' (Topics)?",
+        "a": "Os usuários finais que interagem com o copiloto.",
+        "b": "Os diferentes caminhos de conversação ou diálogos que um copiloto pode ter sobre um assunto específico, definindo como ele responde às perguntas do usuário.",
+        "c": "As fontes de dados externas que o copiloto utiliza para buscar informações.",
+        "d": "Os canais de comunicação (como Teams ou um site) onde o copiloto é publicado.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é o propósito principal do Power Pages (anteriormente Portais do Power Apps)?",
+        "a": "Criar aplicativos móveis nativos para distribuição em lojas de aplicativos.",
+        "b": "Permitir que organizações criem sites de negócios seguros, de baixo código e voltados para o exterior (externos), permitindo que usuários externos (clientes, parceiros) interajam com dados armazenados no Dataverse.",
+        "c": "Analisar dados de uso de aplicativos internos da Power Platform.",
+        "d": "Automatizar a implantação e o gerenciamento de Power Apps.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes descreve melhor o conceito de 'desenvolvimento de baixo código' (low-code development) promovido pela Power Platform?",
+        "a": "Escrever código complexo e extenso em linguagens de programação tradicionais como C# ou Java.",
+        "b": "Uma abordagem para o desenvolvimento de software que minimiza a necessidade de codificação manual, utilizando interfaces visuais, modelagem e componentes pré-construídos para construir aplicativos e processos rapidamente.",
+        "c": "Desenvolver apenas a interface do usuário de um aplicativo, deixando a lógica de back-end para desenvolvedores profissionais.",
+        "d": "Usar exclusivamente software de código aberto para todas as etapas de desenvolvimento.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é um benefício chave de usar o Dataverse como a principal fonte de dados para aplicativos da Power Platform?",
+        "a": "É sempre a opção de armazenamento mais barata, independentemente do volume.",
+        "b": "Fornece um modelo de dados rico e seguro com tipos de dados avançados, segurança baseada em funções, lógica de negócios integrada (como regras de negócios e fluxos de trabalho) e fácil integração com outros componentes da Power Platform.",
+        "c": "Só pode ser acessado por aplicativos orientados a modelo do Power Apps.",
+        "d": "Não requer configuração de segurança, pois é seguro por padrão para todos os usuários.",
+        "correct": "b"
+    },
+    {
+        "question": "No Power BI, o que é um 'Dashboard'?",
+        "a": "Um conjunto de dados detalhado importado de uma fonte de dados externa.",
+        "b": "Uma única página, muitas vezes chamada de tela, que usa visualizações (como gráficos e KPIs) para contar uma história e exibir os insights mais importantes de um ou mais relatórios, geralmente para monitoramento.",
+        "c": "Uma coleção de múltiplos relatórios detalhados agrupados por tema.",
+        "d": "A ferramenta usada no Power BI Desktop para transformar e limpar dados.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual tipo de fluxo do Power Automate é iniciado manualmente por um usuário, por exemplo, a partir de um botão em um Power App, no aplicativo móvel do Power Automate ou em um dispositivo físico?",
+        "a": "Fluxo da nuvem instantâneo (Instant cloud flow)",
+        "b": "Fluxo da nuvem automatizado (Automated cloud flow)",
+        "c": "Fluxo da nuvem agendado (Scheduled cloud flow)",
+        "d": "Fluxo de processo de negócios (Business process flow)",
+        "correct": "a"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'conector padrão' na Power Platform, geralmente incluído nas licenças básicas?",
+        "a": "Conector para SAP ERP (geralmente premium).",
+        "b": "Conector para SharePoint Online.",
+        "c": "Conector para um banco de dados SQL Server on-premises usando um gateway de dados (geralmente premium).",
+        "d": "Conector personalizado criado pela sua organização para uma API interna.",
+        "correct": "b"
+    },
+    {
+        "question": "O que são 'soluções' (solutions) na Power Platform e qual seu principal propósito no ALM (Application Lifecycle Management)?",
+        "a": "Respostas prontas para problemas de negócios comuns, disponíveis no AppSource.",
+        "b": "Um mecanismo para empacotar, gerenciar e distribuir componentes da Power Platform (aplicativos, fluxos, tabelas do Dataverse, variáveis de ambiente, etc.) entre diferentes ambientes (desenvolvimento, teste, produção).",
+        "c": "Modelos de aplicativos pré-construídos que podem ser personalizados.",
+        "d": "Documentação detalhada e guias de usuário para os componentes da Power Platform.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual componente da Power Platform é usado para criar fluxos que guiam os usuários através de um processo de negócios padronizado e com várias etapas, como um processo de vendas ou integração de novos funcionários?",
+        "a": "Fluxo de processo de negócios (Business process flow) no Power Automate, frequentemente usado com Dataverse e aplicativos orientados a modelo.",
+        "b": "Aplicativo de tela do Power Apps com lógica de navegação complexa.",
+        "c": "Relatório do Power BI com filtros interativos.",
+        "d": "Tópico do Microsoft Copilot Studio com muitas ramificações.",
+        "correct": "a"
+    },
+    {
+        "question": "Qual é a principal função do 'Power Platform admin center'?",
+        "a": "Criar e modificar aplicativos, fluxos e relatórios da Power Platform.",
+        "b": "Gerenciar ambientes, usuários, segurança (como papéis e políticas de DLP), dados (capacidade do Dataverse), licenças e analisar o uso e a integridade dos componentes da Power Platform em uma organização.",
+        "c": "Desenvolver e testar conectores personalizados para serviços externos.",
+        "d": "Publicar e compartilhar relatórios do Power BI com usuários finais.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes cenários de negócios é um exemplo de um caso de uso ideal para Power Apps?",
+        "a": "Criar um relatório financeiro trimestral complexo com muitas visualizações de dados.",
+        "b": "Desenvolver um aplicativo móvel para técnicos de campo registrarem inspeções, capturarem fotos e obterem assinaturas de clientes.",
+        "c": "Automatizar o envio de um e-mail de lembrete diário para uma equipe sobre tarefas pendentes.",
+        "d": "Criar um chatbot para responder a perguntas frequentes sobre políticas de RH.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes cenários de negócios é um exemplo de um caso de uso ideal para Power BI?",
+        "a": "Criar um aplicativo para entrada de dados de novos clientes em um evento.",
+        "b": "Analisar dados de vendas de várias fontes, identificar tendências, criar dashboards interativos para a gerência e compartilhar insights em toda a organização.",
+        "c": "Automatizar o processo de aprovação de pedidos de compra quando um formulário é submetido.",
+        "d": "Desenvolver um bot para ajudar os usuários a agendar reuniões com base na disponibilidade do calendário.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes cenários de negócios é um exemplo de um caso de uso ideal para Power Automate?",
+        "a": "Criar um aplicativo móvel para que os funcionários rastreiem suas despesas.",
+        "b": "Visualizar dados de desempenho de campanhas de marketing em um dashboard.",
+        "c": "Quando um novo arquivo é carregado em uma pasta específica do OneDrive, copiar automaticamente esse arquivo para uma biblioteca do SharePoint e enviar uma notificação para o Microsoft Teams.",
+        "d": "Construir um chatbot para fornecer suporte técnico de primeiro nível aos usuários.",
+        "correct": "c"
+    },
+    {
+        "question": "Qual dos seguintes cenários de negócios é um exemplo de um caso de uso ideal para Microsoft Copilot Studio?",
+        "a": "Criar um aplicativo de gerenciamento de projetos com listas de tarefas e cronogramas.",
+        "b": "Analisar o sentimento de milhares de comentários de clientes em mídias sociais.",
+        "c": "Desenvolver um copiloto (chatbot) que pode responder a perguntas comuns dos funcionários sobre benefícios, políticas de férias ou encontrar informações na intranet da empresa.",
+        "d": "Automatizar a geração e o envio de relatórios financeiros mensais.",
+        "correct": "c"
+    },
+    {
+        "question": "O que são 'ambientes' (environments) na Power Platform e por que são importantes?",
+        "a": "Diferentes versões do software da Power Platform que os usuários podem escolher.",
+        "b": "Contêineres lógicos que armazenam, gerenciam e compartilham os aplicativos, fluxos, dados (incluindo instâncias do Dataverse) e outros recursos de uma organização. São importantes para separar o trabalho (ex: desenvolvimento, teste, produção) e gerenciar segurança e permissões.",
+        "c": "Tipos de licenças de usuário que determinam o acesso aos recursos.",
+        "d": "Conexões predefinidas com fontes de dados externas populares.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é a relação fundamental entre Power Apps e Dataverse?",
+        "a": "Power Apps é uma ferramenta usada exclusivamente para criar e modificar tabelas no Dataverse.",
+        "b": "Dataverse pode atuar como uma fonte de dados poderosa, segura e escalável para aplicativos criados no Power Apps (especialmente aplicativos orientados a modelo, mas também aplicativos de tela), permitindo o uso de seu rico modelo de dados e recursos de segurança.",
+        "c": "Dataverse é um tipo específico de Power App projetado para gerenciamento de dados.",
+        "d": "Eles são serviços completamente independentes e não possuem capacidade de integração direta.",
+        "correct": "b"
+    },
+    {
+        "question": "No Power BI, qual é a principal diferença entre um 'Relatório' (Report) e um 'Dashboard'?",
+        "a": "Relatórios são estáticos e não interativos, enquanto dashboards são totalmente interativos.",
+        "b": "Dashboards são usados para análise detalhada e exploração de dados, enquanto relatórios fornecem apenas uma visão geral de alto nível.",
+        "c": "Um relatório é uma coleção de uma ou mais páginas de visualizações interativas e pode ser mais detalhado e exploratório. Um dashboard é uma única página que consolida e exibe os visuais e KPIs mais importantes de um ou mais relatórios, otimizado para monitoramento.",
+        "d": "Relatórios são criados exclusivamente no Power BI Service, enquanto dashboards são criados no Power BI Desktop.",
+        "correct": "c"
+    },
+    {
+        "question": "Qual tipo de fluxo do Power Automate é executado em intervalos regulares e predefinidos, como diariamente, semanalmente ou a cada hora?",
+        "a": "Fluxo da nuvem instantâneo (Instant cloud flow)",
+        "b": "Fluxo da nuvem automatizado (Automated cloud flow)",
+        "c": "Fluxo da nuvem agendado (Scheduled cloud flow)",
+        "d": "Fluxo de IU de desktop (Desktop UI flow)",
+        "correct": "c"
+    },
+    {
+        "question": "O que é o 'Common Data Model' (CDM) e qual sua importância no contexto da Power Platform e do Dataverse?",
+        "a": "Um modelo de design específico para criar aplicativos de tela no Power Apps.",
+        "b": "Um padrão de esquema de dados compartilhado, com um conjunto de tabelas, colunas e relacionamentos padrão (entidades de negócios comuns), usado pelo Dataverse e outros serviços da Microsoft (como Dynamics 365) para facilitar a consistência e a interoperabilidade de dados entre aplicativos.",
+        "c": "Um tipo de conector premium que requer licenciamento adicional.",
+        "d": "Um modelo de licenciamento específico para o uso do Dataverse em grandes empresas.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um benefício chave de usar a Power Platform para criar soluções de negócios, especialmente para 'citizen developers'?",
+        "a": "Requer conhecimento profundo de linguagens de programação complexas como C# ou Java para qualquer desenvolvimento.",
+        "b": "Acelera significativamente o desenvolvimento de aplicativos e automações, capacitando tanto desenvolvedores profissionais quanto usuários de negócios com conhecimento técnico limitado (citizen developers) a criar soluções rapidamente.",
+        "c": "É adequado apenas para o desenvolvimento de soluções muito pequenas e simples, sem capacidade de escalar.",
+        "d": "Não se integra bem com outros serviços e dados da Microsoft, exigindo soluções de terceiros para conectividade.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é a função das 'tabelas' (tables) no Microsoft Dataverse?",
+        "a": "Definir a interface do usuário e o layout visual de um Power App.",
+        "b": "Armazenar dados de forma estruturada, com colunas (campos que definem tipos de dados) e linhas (registros que contêm os dados), semelhante a tabelas em um banco de dados relacional.",
+        "c": "Executar lógica de negócios automatizada e fluxos de trabalho complexos.",
+        "d": "Conectar-se a fontes de dados externas e sincronizar informações.",
+        "correct": "b"
+    },
+    {
+        "question": "No Power BI Desktop, qual visualização (view) é usada para criar e modificar o modelo de dados, incluindo a definição de relacionamentos entre tabelas, criação de hierarquias e formatação de colunas?",
+        "a": "Visualização de Relatório (Report view)",
+        "b": "Visualização de Dados (Data view)",
+        "c": "Visualização de Modelo (Model view)",
+        "d": "Editor do Power Query (Power Query Editor)",
+        "correct": "c"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de uma 'ação' (action) que pode ser executada em um fluxo do Power Automate?",
+        "a": "Receber um novo e-mail na caixa de entrada do Outlook (este é um gatilho).",
+        "b": "Enviar um e-mail, criar um item em uma lista do SharePoint, atualizar um registro no Dataverse, ou chamar uma API externa.",
+        "c": "Verificar se o valor de uma variável é maior que 10 (esta é uma condição).",
+        "d": "Agendar o fluxo para ser executado todas as manhãs às 8h (esta é uma configuração de gatilho).",
+        "correct": "b"
+    },
+    {
+        "question": "No Microsoft Copilot Studio, o que são 'Entidades' (Entities)?",
+        "a": "Os diferentes canais de comunicação (como Teams ou Facebook Messenger) onde o copiloto pode ser publicado.",
+        "b": "Itens de informação específicos que o copiloto precisa extrair da resposta de um usuário para entender a intenção e responder adequadamente (ex: cidade em uma pergunta sobre o tempo, data para um agendamento, nome de um produto).",
+        "c": "Os fluxos de diálogo predefinidos que o copiloto segue para cada tópico.",
+        "d": "As análises de desempenho do copiloto, como número de sessões e taxa de resolução.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'conector premium' na Power Platform, que geralmente requer licenciamento adicional para ser usado em Power Apps ou Power Automate?",
+        "a": "Conector para Outlook 365.",
+        "b": "Conector para SQL Server (on-premises ou Azure SQL).",
+        "c": "Conector para Twitter.",
+        "d": "Conector para OneDrive for Business.",
+        "correct": "b"
+    },
+    {
+        "question": "O que é o 'App Checker' no Power Apps Studio e qual sua utilidade?",
+        "a": "Uma ferramenta para publicar aplicativos diretamente nas lojas de aplicativos móveis.",
+        "b": "Uma ferramenta integrada que verifica seu aplicativo de tela em busca de erros de fórmula, problemas de desempenho em tempo de execução, avisos de delegação e preocupações de acessibilidade, ajudando a melhorar a qualidade do aplicativo.",
+        "c": "Um local para encontrar e usar modelos de aplicativos pré-construídos.",
+        "d": "Um depurador avançado para fluxos complexos do Power Automate.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é a principal diferença entre o Power BI Desktop e o Power BI Service em termos de funcionalidade primária?",
+        "a": "Power BI Desktop é usado principalmente para visualização de dashboards, enquanto o Power BI Service é para modelagem de dados e transformações.",
+        "b": "Power BI Desktop é uma aplicação Windows gratuita para desenvolvimento de relatórios, modelagem de dados e transformações (Power Query), enquanto o Power BI Service é um serviço online (SaaS) para publicar, compartilhar, colaborar e gerenciar relatórios e dashboards.",
+        "c": "Power BI Desktop requer uma licença Pro ou Premium para qualquer uso, enquanto o Power BI Service é totalmente gratuito.",
+        "d": "Não há diferença funcional significativa; são apenas interfaces diferentes para as mesmas tarefas.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual tipo de fluxo do Power Automate é projetado para automatizar tarefas repetitivas em aplicativos desktop (Windows) e web que podem não ter APIs disponíveis, usando técnicas de gravação de UI e interação com elementos da tela?",
+        "a": "Fluxo da nuvem instantâneo (Instant cloud flow)",
+        "b": "Fluxo de IU de desktop (Desktop UI flow) - criado e executado com Power Automate Desktop (RPA).",
+        "c": "Fluxo de processo de negócios (Business process flow)",
+        "d": "Fluxo de dados (Dataflow) no Power BI.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é o papel do 'AI Builder' dentro da Power Platform?",
+        "a": "Substituir completamente a necessidade de desenvolvedores profissionais para qualquer tarefa de IA.",
+        "b": "Permitir que usuários com diferentes níveis de habilidade técnica (incluindo citizen developers) adicionem facilmente recursos de inteligência artificial (como processamento de formulários, detecção de objetos, previsão, classificação de texto) aos seus aplicativos do Power Apps e fluxos do Power Automate.",
+        "c": "Criar modelos de inteligência artificial complexos do zero usando código Python e bibliotecas de aprendizado de máquina.",
+        "d": "Analisar o uso de recursos de IA na organização e otimizar os custos de licenciamento.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'modelo de IA personalizado' que pode ser treinado com seus próprios dados usando o AI Builder?",
+        "a": "Tradução de texto entre inglês e espanhol (este é um modelo pré-construído).",
+        "b": "Classificação de texto para categorizar automaticamente e-mails de feedback de clientes com base em seus próprios dados e categorias de negócios.",
+        "c": "Reconhecimento de fala para converter áudio em texto em um idioma comum (este é um modelo pré-construído).",
+        "d": "Detecção de idioma em um trecho de texto (este é um modelo pré-construído).",
+        "correct": "b"
+    },
+    {
+        "question": "Como o Microsoft Copilot Studio (anteriormente Power Virtual Agents) pode se integrar com o Power Automate para realizar ações?",
+        "a": "Power Automate é usado para criar a interface gráfica do usuário do copiloto.",
+        "b": "Um copiloto do Microsoft Copilot Studio pode chamar fluxos do Power Automate para executar ações em sistemas externos (como criar um registro no Dataverse, buscar informações de uma API ou enviar um e-mail) como parte de um tópico de conversação.",
+        "c": "Microsoft Copilot Studio é um tipo especializado de fluxo do Power Automate.",
+        "d": "Eles não se integram diretamente; a comunicação deve ser feita por meio de um serviço intermediário.",
+        "correct": "b"
+    },
+    {
+        "question": "O que são 'componentes' (components) em aplicativos de tela do Power Apps e qual sua vantagem?",
+        "a": "Fontes de dados externas que fornecem informações para o aplicativo.",
+        "b": "Blocos de construção reutilizáveis (contendo um conjunto de controles e lógica) que podem ser criados uma vez e usados em diferentes telas ou até mesmo em diferentes aplicativos, promovendo consistência e economizando tempo de desenvolvimento.",
+        "c": "Tipos de licenças de usuário que determinam os recursos disponíveis.",
+        "d": "Variáveis globais que armazenam informações de estado do aplicativo.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'visual' (visual) padrão disponível no Power BI para representar dados?",
+        "a": "Uma tabela de dados brutos no editor do Power Query.",
+        "b": "Um gráfico de barras, gráfico de pizza, mapa geográfico ou um cartão de KPI.",
+        "c": "Uma medida calculada usando DAX.",
+        "d": "Um conector de dados para uma fonte específica como o SQL Server.",
+        "correct": "b"
+    },
+    {
+        "question": "O que é 'Robotic Process Automation' (RPA) e como o Power Automate Desktop se encaixa nesse conceito?",
+        "a": "RPA é um tipo de robô físico usado em linhas de montagem; Power Automate Desktop o controla remotamente.",
+        "b": "RPA é a tecnologia que permite automatizar tarefas repetitivas e baseadas em regras que os humanos realizam interagindo com interfaces de usuário (UI) de sistemas digitais. Power Automate Desktop é a ferramenta da Microsoft para criar e executar essas automações de RPA.",
+        "c": "RPA é um tipo avançado de inteligência artificial focado em aprendizado profundo; Power Automate Desktop usa RPA para análise preditiva de dados.",
+        "d": "RPA e Power Automate Desktop são termos completamente diferentes e não relacionados.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é a principal função do 'Microsoft Power Platform Center of Excellence (CoE) Starter Kit'?",
+        "a": "Um conjunto de licenças gratuitas da Power Platform para novos usuários.",
+        "b": "Uma coleção de modelos, ferramentas e melhores práticas (como aplicativos e fluxos) para ajudar as organizações a estabelecer uma estratégia de governança, administração, desenvolvimento e nutrição para a Power Platform.",
+        "c": "Um curso de treinamento intensivo para iniciantes na Power Platform.",
+        "d": "Um aplicativo de exemplo complexo para demonstrar todos os recursos avançados da Power Platform.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'gatilho de recorrência' (recurrence trigger) no Power Automate?",
+        "a": "Quando um novo e-mail chega na caixa de entrada do Outlook.",
+        "b": "Quando um botão é pressionado em um aplicativo do Power Apps.",
+        "c": "Executar um fluxo automaticamente todos os dias às 9h da manhã ou a cada hora.",
+        "d": "Quando um item é modificado em uma lista do SharePoint.",
+        "correct": "c"
+    },
+    {
+        "question": "O que são 'variáveis' (variables) em aplicativos de tela do Power Apps?",
+        "a": "Conexões com fontes de dados externas como SharePoint ou SQL Server.",
+        "b": "Controles de interface do usuário, como botões, rótulos de texto e caixas de entrada.",
+        "c": "Espaços de armazenamento temporário na memória do aplicativo para guardar informações (como texto, números, tabelas) que podem ser usadas e alteradas durante a execução do aplicativo.",
+        "d": "Funções predefinidas que executam cálculos ou manipulam texto.",
+        "correct": "c"
+    },
+    {
+        "question": "Qual é o propósito de 'publicar' um Power App após o desenvolvimento?",
+        "a": "Apenas salvar o aplicativo para que o criador possa continuar o desenvolvimento mais tarde.",
+        "b": "Tornar a versão mais recente e testada do aplicativo disponível para os usuários finais que têm permissão para usá-lo.",
+        "c": "Verificar automaticamente o aplicativo em busca de erros de fórmula e problemas de desempenho.",
+        "d": "Exportar o aplicativo como um pacote para ser importado em outro ambiente da Power Platform.",
+        "correct": "b"
+    },
+    {
+        "question": "No Power BI, o que é um 'conjunto de dados' (dataset)?",
+        "a": "Um único visual, como um gráfico de barras, em um relatório.",
+        "b": "Uma coleção de dados que foi importada de uma ou mais fontes, ou conectada diretamente, e opcionalmente transformada e modelada, servindo como base para a criação de relatórios e dashboards.",
+        "c": "Um painel de controle com os principais indicadores de desempenho (KPIs).",
+        "d": "Uma consulta escrita em linguagem DAX para realizar cálculos complexos.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'fluxo da nuvem automatizado' (automated cloud flow) no Power Automate?",
+        "a": "Um fluxo que é iniciado manualmente clicando em um botão em um aplicativo móvel.",
+        "b": "Um fluxo que é executado automaticamente quando um novo arquivo é adicionado a uma pasta específica do OneDrive for Business.",
+        "c": "Um fluxo que é executado uma vez por semana em um horário agendado.",
+        "d": "Um fluxo que guia um usuário através de um processo de aprovação de várias etapas.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é a principal diferença entre um 'aplicativo de tela' (canvas app) e um 'aplicativo orientado a modelo' (model-driven app) em termos de fonte de dados primária?",
+        "a": "Aplicativos de tela só podem usar listas do SharePoint, aplicativos orientados a modelo só podem usar SQL Server.",
+        "b": "Aplicativos de tela oferecem flexibilidade para se conectar a muitas fontes de dados, enquanto aplicativos orientados a modelo são construídos primariamente sobre o Microsoft Dataverse.",
+        "c": "Aplicativos orientados a modelo não podem se conectar a nenhuma fonte de dados externa.",
+        "d": "Aplicativos de tela não podem usar o Dataverse como fonte de dados.",
+        "correct": "b"
+    },
+    {
+        "question": "O que é o 'Power Fx' e qual sua inspiração?",
+        "a": "Uma nova linguagem de programação compilada para desenvolvedores profissionais, inspirada em C++.",
+        "b": "Uma linguagem de fórmulas de baixo código, de propósito geral, baseada em texto e inspirada nas fórmulas do Microsoft Excel. É usada em Power Apps (aplicativos de tela) e está se expandindo para outros componentes da Power Platform.",
+        "c": "Um conector especializado para fontes de dados financeiras e de câmbio (FX).",
+        "d": "Uma ferramenta de visualização avançada dentro do Power BI para efeitos especiais.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'conector personalizado' na Power Platform?",
+        "a": "Um conector padrão para o Microsoft Excel Online (Business).",
+        "b": "Um conector criado por um desenvolvedor para permitir a comunicação com um serviço web ou API proprietária que não possui um conector pré-construído pela Microsoft ou parceiros.",
+        "c": "Um conector padrão para o Twitter.",
+        "d": "Um conector que requer uma licença premium, como o conector do SQL Server.",
+        "correct": "b"
+    },
+    {
+        "question": "No Power BI, qual é a função do 'gateway de dados local' (on-premises data gateway) no modo padrão (enterprise)?",
+        "a": "Armazenar cópias de segurança de relatórios do Power BI localmente na rede da empresa.",
+        "b": "Atuar como uma ponte segura que permite que o Power BI Service (e outros serviços na nuvem como Power Apps, Power Automate) acesse e atualize dados de fontes que estão localizadas em uma rede on-premises.",
+        "c": "Acelerar o desempenho de dashboards e relatórios que consomem dados exclusivamente da nuvem.",
+        "d": "Converter automaticamente dados de formatos on-premises para formatos compatíveis com o Power BI na nuvem.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de uma 'fonte de dados' comum que pode ser usada com o Power BI para criar relatórios?",
+        "a": "Um arquivo de imagem JPEG ou PNG.",
+        "b": "Um banco de dados SQL Server, um arquivo Excel armazenado no OneDrive, um feed OData, ou um serviço online como o Google Analytics.",
+        "c": "Uma apresentação do Microsoft PowerPoint.",
+        "d": "Um fluxo do Power Automate que envia notificações.",
+        "correct": "b"
+    },
+    {
+        "question": "O que são 'Dataflows' (Fluxos de dados) na Power Platform e qual seu benefício?",
+        "a": "Um tipo de fluxo do Power Automate projetado especificamente para mover grandes volumes de dados entre sistemas.",
+        "b": "Uma tecnologia de preparação de dados de autoatendimento, baseada em nuvem (usando Power Query Online), que permite ingerir, transformar, limpar e carregar dados no Dataverse ou Azure Data Lake Storage. O benefício é a reutilização da lógica de transformação de dados em múltiplos relatórios e aplicativos.",
+        "c": "Visualizações de dados em tempo real que fluem diretamente para dashboards do Power BI.",
+        "d": "Conexões seguras e criptografadas com bancos de dados relacionais.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é o propósito de 'compartilhar' um Power App com outros usuários?",
+        "a": "Fazer uma cópia de segurança do aplicativo em um local seguro.",
+        "b": "Permitir que outros usuários em sua organização (ou convidados, dependendo das permissões) usem o aplicativo que você criou para realizar suas tarefas.",
+        "c": "Excluir o aplicativo permanentemente do ambiente.",
+        "d": "Converter o aplicativo para um formato de arquivo diferente para arquivamento.",
+        "correct": "b"
+    },
+    {
+        "question": "No Power Automate, o que é uma 'condição' (control - condition)?",
+        "a": "Um evento externo que inicia a execução do fluxo.",
+        "b": "Uma ação que envia uma notificação por e-mail ou Teams.",
+        "c": "Um ponto de decisão no fluxo que avalia uma expressão lógica (verdadeira ou falsa) e executa diferentes conjuntos de ações com base no resultado dessa avaliação.",
+        "d": "Um loop que repete um conjunto de ações um número específico de vezes.",
+        "correct": "c"
+    },
+    {
+        "question": "Qual dos seguintes é um benefício de usar o Microsoft Dataverse para armazenar dados de aplicativos de negócios?",
+        "a": "É sempre a opção mais barata para qualquer volume de dados e não requer licenciamento.",
+        "b": "Oferece segurança granular baseada em funções, tipos de dados ricos (como moedas, pesquisas, escolhas), a capacidade de definir lógica de negócios complexa (regras de negócios, fluxos de trabalho) e fácil integração com Dynamics 365 e outros componentes da Power Platform.",
+        "c": "Não requer backup, pois os dados são automaticamente replicados e indestrutíveis contra qualquer tipo de perda.",
+        "d": "Pode ser acessado apenas por aplicativos orientados a modelo e não por aplicativos de tela.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é a principal função do 'Power BI Report Server'?",
+        "a": "Um serviço online para compartilhar dashboards interativos do Power BI com usuários externos.",
+        "b": "Uma solução de servidor de relatórios on-premises que permite às organizações publicar, gerenciar e entregar relatórios do Power BI e relatórios paginados do SQL Server Reporting Services (SSRS) dentro de sua própria infraestrutura de rede.",
+        "c": "Uma ferramenta para criar relatórios otimizados para dispositivos móveis no Power BI Desktop.",
+        "d": "Um conector de dados especializado para fontes de dados do Power BI.",
+        "correct": "b"
+    },
+    {
+        "question": "O que são 'relatórios paginados' (paginated reports) no Power BI e para que são otimizados?",
+        "a": "Relatórios interativos com muitos visuais dinâmicos e drill-downs.",
+        "b": "Relatórios formatados para impressão ou geração de PDF, otimizados para layouts de página fixos, que podem se estender por várias páginas e são ideais para documentos como faturas, extratos ou relatórios operacionais detalhados (semelhantes aos relatórios do SQL Server Reporting Services - SSRS).",
+        "c": "Dashboards que exibem dados com atualizações em tempo real de fontes de streaming.",
+        "d": "Relatórios criados exclusivamente usando linguagem DAX para todos os cálculos e visuais.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'modelo de IA' que pode ser usado com o AI Builder para análise de texto?",
+        "a": "Detecção de objetos em uma imagem.",
+        "b": "Classificação de categorias (Text classification) para, por exemplo, atribuir e-mails de feedback a categorias como 'Produto', 'Serviço' ou 'Faturamento'.",
+        "c": "Previsão (Prediction) para estimar valores numéricos futuros.",
+        "d": "Processamento de formulários para extrair dados de documentos digitalizados.",
+        "correct": "b"
+    },
+    {
+        "question": "Como a Power Platform se integra nativamente com o Microsoft Teams?",
+        "a": "O Microsoft Teams é usado primariamente para gerenciar as licenças da Power Platform.",
+        "b": "Aplicativos do Power Apps, relatórios do Power BI, fluxos do Power Automate e copilotos do Microsoft Copilot Studio podem ser facilmente incorporados, compartilhados e usados diretamente dentro da interface do Microsoft Teams, promovendo a colaboração e o acesso no fluxo de trabalho.",
+        "c": "A Power Platform é um substituto completo para todas as funcionalidades do Microsoft Teams.",
+        "d": "Eles não se integram diretamente; é necessário usar conectores de terceiros para qualquer interação.",
+        "correct": "b"
+    },
+    {
+        "question": "O que é uma 'galeria' (gallery) em um aplicativo de tela do Power Apps?",
+        "a": "Um local centralizado para armazenar todas as imagens e arquivos de mídia usados no aplicativo.",
+        "b": "Um controle que pode exibir múltiplos registros de uma fonte de dados (como uma lista ou tabela), onde cada item na galeria pode conter outros controles para exibir diferentes campos de cada registro.",
+        "c": "Uma coleção de todas as telas que compõem o aplicativo.",
+        "d": "Um tipo de gráfico especializado para visualização de dados hierárquicos.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é o propósito de um 'ambiente de desenvolvedor' (developer environment) na Power Platform?",
+        "a": "Para usuários finais executarem aplicativos de produção críticos para os negócios.",
+        "b": "Um ambiente individual, geralmente gratuito ou de baixo custo, destinado a desenvolvedores e criadores para construírem, testarem e experimentarem aplicativos, fluxos e outros componentes da Power Platform sem afetar os ambientes de produção ou outros usuários.",
+        "c": "Um ambiente compartilhado e altamente restrito usado exclusivamente para colaboração em equipe em projetos de grande escala.",
+        "d": "Um ambiente com recursos de computação extremamente limitados, usado apenas para fins de demonstração de vendas.",
+        "correct": "b"
+    },
+    {
+        "question": "No Power BI, o que significa 'obter dados' (Get Data)?",
+        "a": "Criar um novo relatório a partir de um modelo existente.",
+        "b": "O processo de conectar-se a várias fontes de dados (como bancos de dados, arquivos, serviços online) e importar ou consultar os dados dessas fontes para uso na criação de modelos de dados e relatórios no Power BI.",
+        "c": "Publicar um dashboard finalizado para o Power BI Service.",
+        "d": "Compartilhar um conjunto de dados existente com outros usuários na organização.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'gatilho de evento' (event-based trigger) no Power Automate?",
+        "a": "Executar um fluxo automaticamente a cada hora, independentemente de qualquer evento.",
+        "b": "Iniciar um fluxo automaticamente quando um novo e-mail chega na caixa de entrada do Outlook ou quando um novo item é criado em uma lista do SharePoint.",
+        "c": "Clicar em um botão em um aplicativo do Power Apps para iniciar um fluxo manualmente.",
+        "d": "Um fluxo que é parte de um processo de negócios guiado e com várias etapas.",
+        "correct": "b"
+    },
+    {
+        "question": "O que é o 'Microsoft Power Up Program'?",
+        "a": "Um programa de descontos em licenças da Power Platform para grandes empresas.",
+        "b": "Um programa de aprendizado e desenvolvimento de carreira, geralmente gratuito, projetado para ajudar indivíduos de diversas origens a adquirir habilidades na Power Platform e iniciar ou avançar em suas carreiras na área de tecnologia.",
+        "c": "Uma conferência técnica anual da Microsoft focada exclusivamente na Power Platform.",
+        "d": "Uma ferramenta de software para otimizar o desempenho de aplicativos da Power Platform.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'aplicativo de produtividade' que pode ser rapidamente criado com Power Apps para resolver um problema de negócios específico?",
+        "a": "Um sistema ERP (Enterprise Resource Planning) complexo para uma multinacional.",
+        "b": "Um aplicativo simples para uma equipe rastrear o status de projetos, solicitar equipamentos ou registrar feedback de clientes em um evento.",
+        "c": "Um software de edição de vídeo profissional com renderização 3D.",
+        "d": "Um sistema operacional para dispositivos móveis.",
+        "correct": "b"
+    },
+    {
+        "question": "Como o Microsoft Dataverse lida com a segurança dos dados armazenados?",
+        "a": "Não possui recursos de segurança integrados; a segurança deve ser totalmente gerenciada pelo Power App que o acessa.",
+        "b": "Por meio de um modelo de segurança rico e em camadas que inclui segurança baseada em funções (roles), segurança em nível de coluna (field-level security), segurança hierárquica e unidades de negócios para controlar o acesso aos dados.",
+        "c": "Criptografando apenas os nomes das tabelas e colunas, mas não os dados em si.",
+        "d": "Permitindo acesso anônimo e irrestrito a todos os dados por padrão para facilitar a integração.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é a principal diferença entre um 'fluxo da nuvem' (cloud flow) e um 'fluxo de IU de desktop' (desktop flow) no Power Automate em termos de onde eles são executados?",
+        "a": "Fluxos da nuvem são para automação de APIs e são executados em servidores locais, fluxos de desktop são para UI e executados na nuvem.",
+        "b": "Fluxos da nuvem são executados na nuvem da Microsoft e geralmente se conectam a serviços baseados em API (na nuvem ou on-premises via gateway). Fluxos de desktop são executados em uma máquina local (ou VM) para automatizar tarefas em aplicativos Windows e web que podem não ter APIs, usando RPA.",
+        "c": "Fluxos de desktop são inerentemente mais fáceis de criar e gerenciar do que fluxos da nuvem.",
+        "d": "Fluxos da nuvem não podem ser agendados ou acionados por eventos, ao contrário dos fluxos de desktop.",
+        "correct": "b"
+    },
+    {
+        "question": "O que é um 'espaço de trabalho' (workspace) no Power BI Service?",
+        "a": "Exatamente o mesmo que o aplicativo Power BI Desktop instalado em um computador.",
+        "b": "Um local de colaboração no Power BI Service onde equipes podem criar, compartilhar e gerenciar conteúdo relacionado, como dashboards, relatórios, conjuntos de dados e fluxos de dados.",
+        "c": "Uma licença de usuário individual que concede acesso a todos os recursos do Power BI.",
+        "d": "Um tipo específico de visualização de dados usado para exibir KPIs.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'conector de dados' padrão disponível na Power Platform?",
+        "a": "Uma tabela personalizada criada no Dataverse.",
+        "b": "Um conector para o Microsoft SQL Server, SharePoint Online, Salesforce, Twitter ou centenas de outros serviços.",
+        "c": "Uma função Power Fx para manipulação de texto.",
+        "d": "Um ambiente de desenvolvimento da Power Platform.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é o propósito de usar 'filtros' (filters) em um relatório do Power BI?",
+        "a": "Alterar permanentemente o modelo de dados subjacente para remover dados indesejados.",
+        "b": "Restringir os dados exibidos nos visuais do relatório com base em critérios selecionados (como um período de tempo, uma categoria de produto ou uma região geográfica), permitindo uma análise mais focada e interativa.",
+        "c": "Aumentar a quantidade total de dados carregados no relatório para análises mais abrangentes.",
+        "d": "Compartilhar o relatório apenas com usuários específicos que atendam aos critérios do filtro.",
+        "correct": "b"
+    },
+    {
+        "question": "No Power Automate, o que é um 'loop' (como a ação 'Aplicar a cada' - 'Apply to each')?",
+        "a": "Um gatilho que inicia o fluxo repetidamente em intervalos curtos.",
+        "b": "Uma estrutura de controle que permite repetir um conjunto de ações para cada item em uma lista, coleção de dados ou array.",
+        "c": "Uma condição lógica que faz o fluxo voltar a uma etapa anterior se não for satisfeita.",
+        "d": "Uma ação específica para enviar e-mails para múltiplos destinatários em um loop.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um portal que pode ser criado com Power Pages?",
+        "a": "Um aplicativo interno para funcionários registrarem suas horas de trabalho e despesas.",
+        "b": "Um site público voltado para o cliente onde eles podem registrar solicitações de serviço, verificar o status de pedidos, acessar uma base de conhecimento ou participar de fóruns comunitários.",
+        "c": "Um dashboard do Power BI para a equipe de vendas monitorar suas metas e desempenho.",
+        "d": "Um fluxo do Power Automate para aprovação de documentos internos.",
+        "correct": "b"
+    },
+    {
+        "question": "O que é o 'Maker Portal' do Power Apps (make.powerapps.com)?",
+        "a": "Um portal para usuários finais descobrirem e executarem aplicativos compartilhados com eles.",
+        "b": "A interface principal baseada na web onde os criadores (makers) e desenvolvedores constroem, gerenciam e compartilham seus aplicativos (de tela e orientados a modelo), fluxos e outros componentes da Power Platform.",
+        "c": "Um fórum da comunidade online para desenvolvedores da Power Platform trocarem ideias e soluções.",
+        "d": "Um local para comprar licenças adicionais e complementos para o Power Apps.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'modelo de aplicativo' (app template) disponível no Power Apps?",
+        "a": "Um conector de dados personalizado para um sistema legado.",
+        "b": "Um aplicativo pré-construído para um cenário de negócios comum (como gerenciamento de orçamento, integração de novos funcionários, rastreamento de problemas) que pode ser usado como ponto de partida e personalizado.",
+        "c": "Uma função Power Fx complexa para cálculos financeiros.",
+        "d": "Um tipo de licença de usuário específico para desenvolvedores de modelos.",
+        "correct": "b"
+    },
+    {
+        "question": "No Power BI, o que é 'atualização de dados agendada' (scheduled refresh) e por que é importante?",
+        "a": "Atualizar manualmente os dados no Power BI Desktop sempre que novas informações estiverem disponíveis.",
+        "b": "Configurar o Power BI Service para atualizar automaticamente os dados de um conjunto de dados em intervalos regulares (ex: diariamente, semanalmente) a partir das fontes de dados originais, garantindo que os relatórios e dashboards exibam informações recentes.",
+        "c": "Criar um novo relatório do zero sempre que os dados de origem mudarem.",
+        "d": "Compartilhar um relatório com dados em tempo real que se atualizam a cada segundo.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'fluxo de processo de negócios' (business process flow) no Power Automate, frequentemente usado com Dataverse?",
+        "a": "Um fluxo que envia um e-mail de notificação quando um novo item é criado em uma lista do SharePoint.",
+        "b": "Um fluxo que guia visualmente um vendedor através das etapas padronizadas de um processo de vendas (Qualificação, Desenvolvimento, Proposta, Fechamento), garantindo consistência e rastreamento.",
+        "c": "Um fluxo que é executado a cada noite para sincronizar dados entre dois sistemas.",
+        "d": "Um fluxo que é iniciado por um usuário clicando em um botão em um aplicativo do Power Apps para executar uma ação específica.",
+        "correct": "b"
+    },
+    {
+        "question": "O que é o 'AppSource' da Microsoft em relação à Power Platform?",
+        "a": "O código-fonte aberto dos principais componentes da Power Platform.",
+        "b": "Um marketplace online onde você pode encontrar, experimentar e adquirir aplicativos SaaS, complementos e serviços de consultoria de parceiros da Microsoft e de terceiros, incluindo muitas soluções construídas na Power Platform.",
+        "c": "Uma ferramenta integrada ao Power Apps Studio para verificar a segurança e o desempenho de aplicativos.",
+        "d": "Um repositório privado para as organizações armazenarem seus próprios aplicativos e soluções da Power Platform.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'caso de uso de cidadão desenvolvedor' (citizen developer) com a Power Platform?",
+        "a": "Um desenvolvedor profissional de software construindo um sistema ERP (Enterprise Resource Planning) complexo e altamente personalizado para uma grande corporação.",
+        "b": "Um analista de negócios ou especialista em um departamento (como RH ou Marketing) criando um Power App simples para rastrear solicitações de sua equipe ou automatizar um pequeno processo manual, sem precisar escrever código tradicional.",
+        "c": "Um administrador de banco de dados projetando e otimizando esquemas de banco de dados SQL complexos.",
+        "d": "Um engenheiro de inteligência artificial treinando modelos de aprendizado profundo com grandes volumes de dados.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é a principal função do 'Monitor' (Monitor tool) na Power Platform para Power Apps e Power Automate?",
+        "a": "Rastrear os custos de licenciamento e o consumo de capacidade de armazenamento.",
+        "b": "Uma ferramenta de depuração e diagnóstico que permite aos criadores ver um fluxo de eventos e chamadas de rede de seus aplicativos (Power Apps de tela e orientados a modelo) ou execuções de fluxos (Power Automate) para identificar problemas, entender o comportamento e otimizar o desempenho.",
+        "c": "Gerenciar permissões de usuário e papéis de segurança para aplicativos e fluxos.",
+        "d": "Analisar o uso de dados e a capacidade de armazenamento no Dataverse.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'modelo de IA' no AI Builder que pode ser usado para processamento de imagens?",
+        "a": "Extração de frases-chave de um documento de texto.",
+        "b": "Detecção de objetos (Object detection) para identificar e localizar itens específicos dentro de imagens.",
+        "c": "Análise de sentimento de comentários de clientes.",
+        "d": "Previsão de valores numéricos com base em dados históricos.",
+        "correct": "b"
+    },
+    {
+        "question": "Como a Power Platform suporta a governança e o controle administrativo dentro de uma organização?",
+        "a": "Não possui recursos de governança; é uma plataforma totalmente auto-gerenciável pelos usuários finais sem supervisão.",
+        "b": "Por meio de ferramentas como o Power Platform admin center, políticas de Prevenção Contra Perda de Dados (DLP), gerenciamento de ambientes, papéis de segurança, análise de uso e o CoE (Center of Excellence) Starter Kit para ajudar os administradores a gerenciar, proteger e monitorar os recursos da plataforma.",
+        "c": "A governança é gerenciada exclusivamente pelo Azure Active Directory, sem ferramentas específicas da Power Platform.",
+        "d": "Limitando o número de aplicativos e fluxos que podem ser criados por cada usuário.",
+        "correct": "b"
+    },
+    {
+        "question": "O que é uma 'política de Prevenção Contra Perda de Dados' (DLP - Data Loss Prevention) na Power Platform?",
+        "a": "Uma política para fazer backup automático de todos os dados e aplicativos da Power Platform.",
+        "b": "Regras que os administradores podem configurar no Power Platform admin center para classificar conectores como 'Negócios', 'Não-Negócios' ou 'Bloqueados', a fim de evitar que dados sejam movidos entre serviços de maneiras que possam representar um risco de exfiltração de dados confidenciais.",
+        "c": "Uma política para criptografar automaticamente todos os dados armazenados no Dataverse.",
+        "d": "Uma política para limitar o número de usuários que podem acessar um aplicativo específico.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'benefício de negócios' direto de usar a Power Platform para digitalizar um processo manual?",
+        "a": "Aumento da complexidade de TI e necessidade de mais desenvolvedores especializados.",
+        "b": "Maior agilidade para responder a mudanças, redução de custos operacionais, capacitação de usuários de negócios para resolver seus próprios problemas, melhoria da eficiência e produtividade, e tomada de decisão baseada em dados.",
+        "c": "Dependência total de desenvolvedores profissionais para qualquer pequena alteração ou nova solução.",
+        "d": "Ciclos de desenvolvimento inerentemente mais longos e custosos do que o desenvolvimento tradicional.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é a principal função do 'Dataverse for Teams'?",
+        "a": "Uma versão completa e ilimitada do Dataverse para grandes empresas usarem no Microsoft Teams.",
+        "b": "Uma plataforma de dados de baixo código integrada diretamente ao Microsoft Teams, permitindo que as equipes criem aplicativos, fluxos e copilotos dentro do Teams usando um subconjunto de funcionalidades do Dataverse, sem custo adicional para muitas licenças do Teams.",
+        "c": "Um conector especializado para o Dataverse que só funciona a partir do Microsoft Teams.",
+        "d": "Uma ferramenta para visualizar e analisar dados do Dataverse diretamente na interface do Microsoft Teams.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'tipo de coluna' (data type) que pode ser usado em uma tabela do Microsoft Dataverse?",
+        "a": "Um fluxo do Power Automate para lógica de negócios.",
+        "b": "Texto (Text), Número Inteiro (Whole Number), Data e Hora (Date and Time), Escolha (Choice), Pesquisa (Lookup para relacionamentos), Moeda (Currency).",
+        "c": "Um conector padrão para um serviço externo.",
+        "d": "Um ambiente de desenvolvimento da Power Platform.",
+        "correct": "b"
+    },
+    {
+        "question": "No Power BI, o que são 'relações' (relationships) no modelo de dados e por que são importantes?",
+        "a": "Conexões visuais entre diferentes dashboards para navegação.",
+        "b": "Associações lógicas definidas entre colunas de diferentes tabelas que permitem que os dados dessas tabelas sejam combinados, filtrados e analisados juntos em relatórios e visuais. São cruciais para criar um modelo de dados coeso e realizar análises significativas.",
+        "c": "Filtros de segurança aplicados a visuais para restringir o acesso aos dados.",
+        "d": "Medidas DAX complexas que usam dados de várias tabelas para cálculos.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'gatilho' (trigger) no Power Automate que é baseado em um evento do Microsoft Forms?",
+        "a": "Quando um novo relatório do Power BI é publicado em um espaço de trabalho.",
+        "b": "Quando uma nova resposta é submetida a um formulário específico do Microsoft Forms.",
+        "c": "A cada hora, verificar se há novas respostas em todos os formulários.",
+        "d": "Quando um botão em um aplicativo do Power Apps é clicado para abrir um formulário.",
+        "correct": "b"
+    },
+    {
+        "question": "O que é o 'Power Pages' (anteriormente conhecido como parte do Power Apps Portals)?",
+        "a": "Uma ferramenta para criar páginas de interface do usuário internas em aplicativos de tela do Power Apps.",
+        "b": "Um componente da Power Platform, focado em baixo código, para criar, hospedar e administrar sites de negócios modernos, seguros e voltados para o exterior (externos), que se conectam a dados de negócios armazenados no Dataverse.",
+        "c": "Uma funcionalidade do Power BI para criar páginas de relatório interativas e paginadas.",
+        "d": "Um tipo de fluxo do Power Automate projetado para interações com páginas web e extração de dados.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'cenário de automação' adequado para o Power Automate Desktop (RPA)?",
+        "a": "Enviar um e-mail de confirmação quando um novo item é adicionado a uma lista do SharePoint (geralmente melhor com um fluxo da nuvem).",
+        "b": "Copiar dados de um aplicativo legado que não possui uma API para uma planilha do Excel, ou preencher formulários em um site antigo, simulando interações humanas.",
+        "c": "Aprovar um pedido de férias que foi iniciado por um formulário do Power Apps (geralmente melhor com um fluxo da nuvem).",
+        "d": "Agendar uma postagem em mídias sociais para ser publicada em um horário específico (geralmente melhor com um fluxo da nuvem).",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é a principal função do 'Solution Checker' na Power Platform?",
+        "a": "Verificar a disponibilidade e o custo de licenças para os componentes de uma solução.",
+        "b": "Analisar estaticamente soluções (contendo aplicativos, fluxos, etc.) em busca de problemas de desempenho, estabilidade, segurança e melhores práticas, fornecendo um relatório detalhado com recomendações para os criadores.",
+        "c": "Verificar se há atualizações de software disponíveis para os componentes da Power Platform.",
+        "d": "Comparar diferentes versões de uma solução para identificar alterações.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'modelo de IA' no AI Builder que pode ser usado para processamento de documentos, como faturas?",
+        "a": "Detecção de idioma em um texto.",
+        "b": "Processamento de faturas (Invoice processing) para extrair automaticamente informações como fornecedor, data de vencimento e totais.",
+        "c": "Previsão de séries temporais para vendas futuras.",
+        "d": "Classificação de imagens para identificar produtos.",
+        "correct": "b"
+    },
+    {
+        "question": "Como a Power Platform se integra com o Dynamics 365?",
+        "a": "A Power Platform é um substituto completo para todas as funcionalidades do Dynamics 365.",
+        "b": "Muitos aplicativos do Dynamics 365 (como Sales, Customer Service, Field Service) são construídos sobre a Power Platform (usando Dataverse como base de dados, aplicativos orientados a modelo para a interface, etc.) e podem ser estendidos e personalizados usando os componentes da Power Platform (Power Apps, Power Automate).",
+        "c": "Eles são produtos concorrentes da Microsoft e não possuem integração direta.",
+        "d": "A integração é limitada apenas à importação e exportação manual de dados entre os dois sistemas.",
+        "correct": "b"
+    },
+    {
+        "question": "O que é um 'fluxo de trabalho de aprovação' (approval workflow) no Power Automate?",
+        "a": "Um fluxo que aprova automaticamente todas as solicitações sem intervenção humana.",
+        "b": "Um tipo de fluxo que permite solicitar e gerenciar aprovações para itens como documentos, pedidos de férias, relatórios de despesas, roteando-os para os aprovadores designados e rastreando o status da aprovação.",
+        "c": "Um fluxo que apenas envia notificações por e-mail sobre solicitações de aprovação, sem gerenciar o processo em si.",
+        "d": "Um fluxo que requer aprovação do administrador global da Power Platform para ser executado por qualquer usuário.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'papel de segurança' (security role) no Microsoft Dataverse?",
+        "a": "Um tipo de licença de usuário que concede acesso a todos os recursos do Dataverse.",
+        "b": "Um conjunto de privilégios (como permissões de Leitura, Escrita, Criação, Exclusão, Anexar, etc.) em tabelas e outros recursos do Dataverse, que pode ser atribuído a usuários ou equipes para controlar o acesso aos dados e funcionalidades.",
+        "c": "Um ambiente específico da Power Platform com configurações de segurança elevadas.",
+        "d": "Um conector de dados que impõe restrições de segurança na conexão.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é a principal função do 'Power BI Gateway - Pessoal' (Personal Mode)?",
+        "a": "Permitir que vários usuários em uma organização acessem e atualizem dados on-premises de forma colaborativa.",
+        "b": "Permitir que um único usuário individual acesse e atualize dados de fontes on-premises para seus próprios relatórios e conjuntos de dados no Power BI Service, sem a necessidade de compartilhá-los com outros usuários da organização.",
+        "c": "Fazer backup automático de relatórios e conjuntos de dados do Power BI para um local on-premises.",
+        "d": "Conectar-se exclusivamente a fontes de dados na nuvem, como o Azure SQL Database.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'visual personalizado' (custom visual) no Power BI?",
+        "a": "Um gráfico de barras ou de pizza padrão disponível na paleta de visuais.",
+        "b": "Um visual desenvolvido por terceiros ou pela comunidade do Power BI (disponível no AppSource ou como arquivo .pbiviz) e importado para o Power BI para fornecer opções de visualização de dados além das que vêm por padrão.",
+        "c": "Uma tabela de dados simples exibindo linhas e colunas.",
+        "d": "Um filtro de relatório aplicado a uma página específica.",
+        "correct": "b"
+    },
+    {
+        "question": "O que é o 'Microsoft Copilot Studio' (anteriormente conhecido como Power Virtual Agents)?",
+        "a": "Um estúdio de desenvolvimento para criar copilotos físicos e robôs autônomos.",
+        "b": "Uma plataforma de desenvolvimento de IA conversacional de baixo código que permite criar, testar, publicar e gerenciar copilotos (chatbots) inteligentes que podem interagir com usuários em linguagem natural, sem a necessidade de conhecimento profundo em programação ou ciência de dados.",
+        "c": "Uma ferramenta para analisar o desempenho e a eficácia de copilotos de IA em aplicações de negócios.",
+        "d": "Um componente do AI Builder focado exclusivamente na geração de texto.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'conector de dados' que pode ser usado com o Power Automate Desktop para automação de UI?",
+        "a": "Conector para Excel (para interagir com arquivos Excel locais ou em rede).",
+        "b": "Conector para Salesforce (geralmente usado com fluxos da nuvem para interações baseadas em API).",
+        "c": "Conector para Twitter (geralmente usado com fluxos da nuvem para interações baseadas em API).",
+        "d": "Conector para Microsoft Dataverse (geralmente usado com fluxos da nuvem para interações baseadas em API).",
+        "correct": "a"
+    },
+    {
+        "question": "Qual é a principal função do 'Application Lifecycle Management' (ALM) na Power Platform?",
+        "a": "Gerenciar o ciclo de vida das licenças de usuário da Power Platform.",
+        "b": "O processo de gerenciar o ciclo de vida de um aplicativo ou solução da Power Platform, desde o planejamento e desenvolvimento, passando por testes e controle de versão, até a implantação em ambientes de produção e a manutenção contínua, usando ferramentas como soluções, ambientes e, opcionalmente, Azure DevOps.",
+        "c": "Gerenciar o ciclo de vida dos dados armazenados no Dataverse, incluindo arquivamento e exclusão.",
+        "d": "Gerenciar o ciclo de vida dos conectores personalizados criados para a Power Platform.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'modelo de IA' no AI Builder que pode ser usado para 'previsão' (prediction)?",
+        "a": "Detecção de objetos em uma série de imagens de câmeras de segurança.",
+        "b": "Prever se um cliente provavelmente cancelará uma assinatura (churn prediction) com base em seus dados históricos e comportamento.",
+        "c": "Extrair texto de um documento PDF escaneado.",
+        "d": "Classificar o sentimento (positivo, negativo, neutro) de um comentário de cliente.",
+        "correct": "b"
+    },
+    {
+        "question": "Como a Power Platform se integra com o Microsoft 365?",
+        "a": "A Power Platform é um produto totalmente separado do Microsoft 365 e não possui pontos de integração diretos.",
+        "b": "Muitos componentes da Power Platform (como Power Apps e Power Automate) podem usar conectores para serviços do Microsoft 365 (como SharePoint Online, Outlook 365, Microsoft Teams, Excel Online) para ler e escrever dados, acionar fluxos e podem ser incorporados em aplicativos do Microsoft 365 (como o Teams).",
+        "c": "O Microsoft 365 é usado exclusivamente para gerenciar as licenças da Power Platform, mas não há integração de dados ou funcionalidades.",
+        "d": "A Power Platform foi projetada para substituir todas as funcionalidades de produtividade e colaboração do Microsoft 365.",
+        "correct": "b"
+    },
+    {
+        "question": "O que é uma 'coleção' (collection) em um aplicativo de tela do Power Apps?",
+        "a": "Um grupo de telas relacionadas dentro do mesmo aplicativo.",
+        "b": "Uma tabela de dados temporária, armazenada na memória do aplicativo durante sua execução, que pode ser usada para guardar, manipular e exibir informações coletadas de várias fontes ou geradas pelo usuário.",
+        "c": "Um conjunto de conectores de dados configurados para uso no aplicativo.",
+        "d": "Um componente reutilizável que pode ser adicionado a múltiplas telas.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'tipo de licença' comum para o Power BI que permite a criação e o compartilhamento de conteúdo?",
+        "a": "Licença por ambiente de desenvolvimento.",
+        "b": "Power BI Gratuito (para criação e consumo pessoal), Power BI Pro (para colaboração e compartilhamento), Power BI Premium por Usuário (PPU) (recursos premium por usuário), Power BI Premium por Capacidade (recursos premium para a organização).",
+        "c": "Licença por número de conectores de dados utilizados.",
+        "d": "Licença por volume de fluxos de dados processados.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é a principal função do 'Power Automate para desktop' (Power Automate Desktop)?",
+        "a": "Criar e gerenciar fluxos da nuvem que se conectam exclusivamente a APIs de serviços online.",
+        "b": "Permitir a automação de tarefas repetitivas em aplicativos Windows e navegadores web que não possuem APIs disponíveis, usando técnicas de gravação de interface do usuário (UI) e ações de Automação Robótica de Processos (RPA).",
+        "c": "Gerenciar e monitorar fluxos de processo de negócios que abrangem múltiplos sistemas.",
+        "d": "Analisar o desempenho e a eficiência de todos os fluxos do Power Automate na organização.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'modelo de IA' no AI Builder que pode ser usado para 'processamento de formulários'?",
+        "a": "Classificação de categorias de texto para e-mails de suporte.",
+        "b": "Extrair automaticamente dados de formulários estruturados e semiestruturados, como faturas, pedidos de compra ou formulários de impostos, a partir de imagens ou PDFs.",
+        "c": "Detecção de objetos em imagens de prateleiras de uma loja para contagem de inventário.",
+        "d": "Previsão de valores numéricos futuros com base em dados históricos de vendas.",
+        "correct": "b"
+    },
+    {
+        "question": "O que é o 'Microsoft Cloud for Retail' e como a Power Platform pode ser usada para aprimorá-lo?",
+        "a": "Um tipo de licença da Power Platform com desconto específico para empresas do setor de varejo.",
+        "b": "Uma solução específica da indústria da Microsoft que combina recursos do Azure, Microsoft 365, Dynamics 365 e Power Platform para ajudar os varejistas a enfrentar seus desafios de negócios. A Power Platform pode ser usada para criar aplicativos e automações personalizadas para otimizar operações de loja, experiência do cliente, gerenciamento da cadeia de suprimentos, etc.",
+        "c": "Um conector da Power Platform projetado exclusivamente para se integrar com sistemas de ponto de venda (POS) de varejo.",
+        "d": "Um ambiente da Power Platform pré-configurado com modelos de dados e aplicativos específicos para o setor de varejo.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'gatilho' (trigger) no Power Automate que é baseado em um evento do Microsoft Dataverse?",
+        "a": "Executar um fluxo automaticamente a cada dia às 8h da manhã.",
+        "b": "Quando uma linha (registro) é adicionada, modificada ou excluída em uma tabela específica do Dataverse.",
+        "c": "Quando um botão é clicado em um aplicativo do Power Apps.",
+        "d": "Quando um novo e-mail chega na caixa de entrada do Outlook 365.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é a principal função do 'Power Platform Build Tools' para Azure DevOps?",
+        "a": "Um conjunto de ferramentas visuais para criar componentes da Power Platform diretamente no Azure DevOps.",
+        "b": "Tarefas e extensões para Azure DevOps que permitem automatizar processos de build, teste e implantação (CI/CD - Integração Contínua/Entrega Contínua) para soluções da Power Platform, como exportar e importar soluções entre ambientes.",
+        "c": "Ferramentas para monitorar o uso e o desempenho de aplicativos da Power Platform a partir do Azure DevOps.",
+        "d": "Um conjunto de conectores predefinidos para integrar a Power Platform com os painéis do Azure DevOps.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'padrão de design' comum ao criar aplicativos de tela no Power Apps para melhorar a usabilidade?",
+        "a": "Armazenar todas as informações e lógica do aplicativo em variáveis globais para fácil acesso.",
+        "b": "Usar componentes reutilizáveis para elementos comuns da interface do usuário (como cabeçalhos e menus de navegação) para garantir consistência visual e funcional, e facilitar a manutenção.",
+        "c": "Colocar toda a lógica de negócios e interações do aplicativo em um único botão na tela inicial.",
+        "d": "Conectar-se diretamente a bancos de dados SQL Server usando strings de conexão incorporadas, sem usar os conectores da Power Platform.",
+        "correct": "b"
+    },
+    {
+        "question": "No Power BI, o que é 'Drillthrough' (detalhamento) e como ele ajuda na análise de dados?",
+        "a": "Uma forma de aplicar um filtro global a todos os visuais em uma página de relatório.",
+        "b": "Uma funcionalidade que permite criar uma página de destino em seu relatório focada em uma entidade ou categoria específica (ex: detalhes de um produto ou cliente). Os usuários podem então navegar (fazer drillthrough) de um visual em outra página para esta página de detalhes, filtrada para o contexto selecionado.",
+        "c": "Um tipo de gráfico avançado usado para exibir dados hierárquicos complexos.",
+        "d": "Uma maneira de compartilhar relatórios e dashboards do Power BI com usuários externos à organização.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'caso de uso' para Microsoft Copilot Studio (anteriormente Power Virtual Agents) integrado com Power Automate?",
+        "a": "Um copiloto que apenas responde a perguntas de uma base de conhecimento estática (FAQ).",
+        "b": "Um copiloto que, ao receber uma solicitação de um usuário para verificar o status de um pedido, chama um fluxo do Power Automate para buscar essa informação em um sistema de back-end (como um ERP ou banco de dados) e retorna a resposta para o usuário.",
+        "c": "Um fluxo do Power Automate que envia e-mails de marketing para uma lista de contatos.",
+        "d": "Um aplicativo do Power Apps que exibe dados de uma lista do SharePoint sobre o inventário de produtos.",
+        "correct": "b"
+    },
+    {
+        "question": "O que é o 'Portal de Administração do Power Platform' (Power Platform admin center - PPAC)?",
+        "a": "Um local para usuários finais descobrirem e acessarem os aplicativos e relatórios da Power Platform compartilhados com eles.",
+        "b": "Uma interface web centralizada para administradores gerenciarem ambientes, políticas de Prevenção Contra Perda de Dados (DLP), capacidade de armazenamento, licenças, análises de uso e outros aspectos de governança e administração da Power Platform na organização.",
+        "c": "Um marketplace online para comprar e vender soluções e componentes da Power Platform.",
+        "d": "Uma ferramenta de desenvolvimento para criar conectores personalizados e componentes de código.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'tipo de dado' em uma coluna de uma tabela do Microsoft Dataverse que permite armazenar um valor monetário com precisão?",
+        "a": "Um ambiente da Power Platform com configurações financeiras.",
+        "b": "Moeda (Currency).",
+        "c": "Um fluxo do Power Automate para conversão de moeda.",
+        "d": "Um conector premium para serviços financeiros.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é a principal função do 'Microsoft Dataverse Search' (anteriormente Relevance Search)?",
+        "a": "Pesquisar apenas dentro dos metadados de um único aplicativo do Power Apps.",
+        "b": "Fornecer uma experiência de pesquisa global, rápida e relevante em múltiplas tabelas e tipos de dados dentro de um ambiente do Dataverse, semelhante a um motor de busca moderno, com resultados classificados por relevância.",
+        "c": "Pesquisar apenas em arquivos e documentos anexados a registros do Dataverse.",
+        "d": "Uma ferramenta para administradores encontrarem erros de configuração e problemas de desempenho no Dataverse.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'modelo de IA' no AI Builder que pode ser usado para 'extração de entidades' de texto?",
+        "a": "Prever o resultado de uma partida esportiva com base em estatísticas históricas.",
+        "b": "Identificar e extrair informações específicas e predefinidas (como nomes de pessoas, organizações, locais, datas, quantidades) de um bloco de texto não estruturado.",
+        "c": "Detectar se uma imagem contém um determinado objeto ou animal.",
+        "d": "Processar os campos de uma fatura escaneada para extrair valores.",
+        "correct": "b"
+    },
+    {
+        "question": "Como a Power Platform promove a 'democratização dos dados' e da criação de aplicativos?",
+        "a": "Limitando o acesso às ferramentas de desenvolvimento e análise de dados apenas a desenvolvedores profissionais e cientistas de dados.",
+        "b": "Capacitando um público mais amplo de usuários, incluindo usuários de negócios e 'citizen developers' com conhecimento técnico limitado, a acessar, analisar, visualizar dados e construir soluções de negócios (aplicativos, automações, copilotos) com ferramentas de baixo código, sem depender exclusivamente de equipes de TI.",
+        "c": "Armazenando todos os dados organizacionais em um único formato proprietário e altamente técnico.",
+        "d": "Exigindo conhecimento avançado de linguagens de programação como SQL e Python para todas as interações com dados e criação de aplicativos.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'aplicativo de tela responsivo' no Power Apps?",
+        "a": "Um aplicativo que só funciona corretamente em um tamanho de tela específico, como um tablet.",
+        "b": "Um aplicativo cuja interface do usuário (layout e controles) se adapta automaticamente e de forma otimizada a diferentes tamanhos de tela e orientações de dispositivos (como smartphones, tablets e desktops).",
+        "c": "Um aplicativo que responde muito rapidamente aos comandos e interações do usuário.",
+        "d": "Um aplicativo que usa muitos conectores de dados para buscar informações de várias fontes.",
+        "correct": "b"
+    },
+    {
+        "question": "No Power BI, o que é um 'aplicativo' (Power BI app)?",
+        "a": "Exatamente o mesmo que o software Power BI Desktop instalado em um computador.",
+        "b": "Uma forma de empacotar e distribuir conteúdo relacionado do Power BI (como dashboards, relatórios e conjuntos de dados) de forma organizada para um público amplo dentro ou fora da organização, com navegação e permissões personalizadas.",
+        "c": "Uma licença de usuário individual que concede acesso a todos os recursos do Power BI.",
+        "d": "Um conector de dados especializado para uma fonte de dados específica.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'fluxo de trabalho de aprovação' comum que pode ser criado com Power Automate?",
+        "a": "Um fluxo que envia um lembrete diário para todos os funcionários preencherem seu relatório de horas.",
+        "b": "Um fluxo que, quando um novo pedido de despesa é submetido através de um formulário, envia uma solicitação de aprovação para o gerente do funcionário e, com base na resposta do gerente (aprovar/rejeitar), notifica o funcionário e atualiza o status do pedido.",
+        "c": "Um fluxo que sincroniza automaticamente arquivos entre uma pasta do OneDrive e uma biblioteca do SharePoint.",
+        "d": "Um fluxo que é executado quando um novo tweet com uma hashtag específica é postado, salvando o conteúdo do tweet em uma planilha.",
+        "correct": "b"
+    },
+    {
+        "question": "O que é o 'Microsoft Responsible AI Standard' e como ele se aplica ao desenvolvimento de soluções com IA na Power Platform, como o AI Builder?",
+        "a": "Um padrão de conformidade que garante que todos os aplicativos da Power Platform sejam desenvolvidos com o menor custo possível.",
+        "b": "Um conjunto de princípios e diretrizes da Microsoft (Equidade, Confiabilidade e Segurança, Privacidade e Segurança, Inclusão, Transparência e Responsabilidade) para o desenvolvimento e uso ético e responsável da Inteligência Artificial. O AI Builder e outras capacidades de IA na Power Platform são projetados com esses princípios em mente.",
+        "c": "Um padrão de codificação obrigatório para todas as funções Power Fx que usam IA.",
+        "d": "Um requisito de licenciamento específico para usar os modelos de IA mais avançados do AI Builder.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'conector de dados' que permite ao Power Automate interagir com serviços do Microsoft 365?",
+        "a": "Conector para Twitter (serviço externo).",
+        "b": "Conector para Outlook 365 (para enviar/receber e-mails), SharePoint Online (para interagir com listas e bibliotecas), Microsoft Teams (para postar mensagens).",
+        "c": "Conector para SAP S/4HANA (geralmente premium e para sistema externo).",
+        "d": "Conector para um banco de dados Oracle on-premises (requer gateway e geralmente é premium).",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é a principal função do 'Power Platform Command Line Interface' (PAC CLI)?",
+        "a": "Uma interface gráfica de usuário para criar aplicativos do Power Apps de forma visual.",
+        "b": "Uma ferramenta de linha de comando abrangente para desenvolvedores e administradores interagirem com ambientes da Power Platform, Microsoft Dataverse, gerenciar soluções (importar/exportar), trabalhar com o Power Pages e outros componentes, sendo útil para automação de tarefas e cenários de ALM (Application Lifecycle Management).",
+        "c": "Uma forma simplificada de licenciar os diferentes componentes da Power Platform.",
+        "d": "Um conector especializado para integrar a Power Platform com sistemas de controle de versão como o Git.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'modelo de IA' no AI Builder que pode ser usado para 'classificação de categorias' de texto?",
+        "a": "Extrair informações de contato (nome, telefone, e-mail) de imagens de cartões de visita.",
+        "b": "Atribuir automaticamente e-mails de suporte recebidos ou feedback de clientes a categorias predefinidas (como 'Problema de Faturamento', 'Suporte Técnico', 'Sugestão de Produto').",
+        "c": "Detectar e contar objetos específicos em uma imagem de uma prateleira de loja.",
+        "d": "Prever a probabilidade de um cliente realizar uma compra com base em seu histórico.",
+        "correct": "b"
+    },
+    {
+        "question": "Como a Power Platform se integra com o Microsoft Azure?",
+        "a": "A Power Platform é um serviço totalmente separado do Azure e não possui pontos de integração diretos.",
+        "b": "A Power Platform é construída sobre a infraestrutura do Azure e pode se integrar profundamente com muitos serviços do Azure, como Azure Active Directory para identidade, Azure API Management para criar e gerenciar conectores personalizados, Azure Functions para lógica de back-end sem servidor, Azure Synapse Link for Dataverse para análise de dados em larga escala, entre outros.",
+        "c": "O Microsoft Azure é usado exclusivamente para hospedar os sites de documentação e aprendizado da Power Platform.",
+        "d": "A Power Platform foi projetada para substituir completamente a necessidade de usar qualquer serviço do Microsoft Azure.",
+        "correct": "b"
+    },
+    {
+        "question": "O que é uma 'exibição' (view) em um aplicativo orientado a modelo do Power Apps ou diretamente no Microsoft Dataverse?",
+        "a": "Uma tela específica da interface do usuário do aplicativo.",
+        "b": "Uma consulta definida que exibe uma lista de linhas (registros) de uma tabela específica, com colunas selecionadas, critérios de filtro e ordenação configuráveis, permitindo diferentes formas de visualizar os dados.",
+        "c": "Um tipo de gráfico ou visualização de dados usado para representar informações de forma resumida.",
+        "d": "Um fluxo de processo de negócios que guia o usuário através de etapas predefinidas.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'tipo de licença' para o Power Automate que permite a um usuário executar um número ilimitado de fluxos?",
+        "a": "Licença por aplicativo do Power Apps (que pode incluir alguns direitos de uso do Power Automate).",
+        "b": "Power Automate por usuário (Per user plan).",
+        "c": "Licença por conector premium utilizado em um fluxo.",
+        "d": "Licença por ambiente da Power Platform onde os fluxos são executados.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é a principal função do 'AI Builder Object Detection model'?",
+        "a": "Detectar o sentimento predominante em um bloco de texto.",
+        "b": "Identificar e localizar múltiplos objetos específicos dentro de imagens, retornando suas contagens e as coordenadas das caixas delimitadoras ao redor de cada objeto detectado.",
+        "c": "Extrair texto de imagens ou documentos PDF (essa é a função do OCR ou Form Processing).",
+        "d": "Prever valores numéricos futuros com base em dados históricos.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'caso de uso' para um portal criado com Power Pages?",
+        "a": "Um aplicativo interno para funcionários da empresa registrarem suas horas de trabalho e despesas.",
+        "b": "Um site público onde cidadãos podem registrar solicitações de serviço para uma prefeitura, acompanhar o status e acessar informações relevantes.",
+        "c": "Um dashboard do Power BI para a equipe de vendas interna monitorar suas metas e desempenho.",
+        "d": "Um fluxo do Power Automate para enviar notificações por e-mail para aprovadores de documentos internos.",
+        "correct": "b"
+    },
+    {
+        "question": "O que é o 'Microsoft Cloud Solution Provider' (CSP) program e como ele se relaciona com a aquisição e gerenciamento da Power Platform?",
+        "a": "Um programa de certificação para desenvolvedores que desejam criar conectores personalizados para a Power Platform.",
+        "b": "Um programa que permite aos parceiros da Microsoft venderem serviços de nuvem da Microsoft, incluindo licenças da Power Platform, e frequentemente gerenciarem o ciclo de vida do cliente, oferecendo suporte e serviços de valor agregado.",
+        "c": "Um programa de treinamento online gratuito para usuários finais aprenderem a usar os componentes da Power Platform.",
+        "d": "Uma ferramenta de software para migrar dados de sistemas legados para o Microsoft Dataverse.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'modelo de IA' no AI Builder que pode ser usado para 'processamento de recibos'?",
+        "a": "Classificação de categorias de texto para e-mails de clientes.",
+        "b": "Extrair automaticamente informações chave de recibos de despesas, como nome do comerciante, data da transação, valor total e impostos.",
+        "c": "Detecção de objetos em imagens de prateleiras de uma loja para verificar o estoque.",
+        "d": "Previsão de vendas futuras com base em dados históricos e tendências de mercado.",
+        "correct": "b"
+    },
+    {
+        "question": "Como a Power Platform suporta a 'colaboração' entre desenvolvedores (pro-devs) e usuários de negócios (citizen developers)?",
+        "a": "Limitando o acesso às ferramentas de desenvolvimento avançado apenas a programadores experientes e certificados.",
+        "b": "Fornecendo ferramentas de baixo código que permitem que usuários de negócios participem ativamente da criação e personalização de soluções, e ao mesmo tempo permitindo que desenvolvedores profissionais estendam essas soluções com código (ex: PCF, conectores personalizados, Azure Functions) quando necessário, facilitando um modelo de desenvolvimento colaborativo (fusion development).",
+        "c": "Exigindo que todas as soluções sejam construídas individualmente, sem a possibilidade de compartilhamento de componentes ou código.",
+        "d": "Através de fóruns de discussão online e eventos comunitários, mas não diretamente nas ferramentas de desenvolvimento da plataforma.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'tipo de dado' em uma coluna de uma tabela do Microsoft Dataverse que permite armazenar uma lista de opções predefinidas onde o usuário pode selecionar uma ou mais opções?",
+        "a": "Texto (Text) de linha única.",
+        "b": "Escolhas (Choices) - anteriormente conhecido como Option Set de Múltipla Seleção.",
+        "c": "Número Inteiro (Whole Number) com formato de duração.",
+        "d": "Data e Hora (Date and Time) com comportamento independente de fuso horário.",
+        "correct": "b"
+    },
+    {
+        "question": "No Power BI, o que é 'Power Query Online' e onde é usado?",
+        "a": "Uma versão simplificada do Power Query Editor que roda exclusivamente no Power BI Desktop para transformações rápidas.",
+        "b": "A experiência de transformação de dados baseada na web, usando a mesma interface e motor do Power Query, que é usada em Dataflows (Fluxos de Dados) e outras experiências de serviço do Power BI para conectar, limpar, transformar e modelar dados antes de carregá-los.",
+        "c": "Uma linguagem de consulta alternativa ao DAX para criar visuais no Power BI Service.",
+        "d": "Um conector de dados especializado para fontes de dados online que não requerem transformação.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'gatilho' (trigger) no Power Automate que é baseado em uma interação do usuário em um aplicativo?",
+        "a": "Quando um novo arquivo é criado em uma pasta do SharePoint Online.",
+        "b": "Quando um botão é pressionado manualmente no aplicativo móvel do Power Automate ou em um aplicativo do Power Apps.",
+        "c": "A cada segunda-feira às 9h da manhã, executar um fluxo de relatório.",
+        "d": "Quando um novo tweet que corresponde a uma pesquisa específica é postado no Twitter.",
+        "correct": "b"
+    },
+    {
+        "question": "O que é o 'Microsoft Power Fx' e onde ele é usado principalmente dentro da Power Platform?",
+        "a": "Uma linguagem de script complexa, semelhante ao Python, usada para desenvolver fluxos de IU de desktop no Power Automate Desktop.",
+        "b": "Uma linguagem de fórmulas de baixo código, de propósito geral, fortemente tipada e declarativa, baseada em texto e inspirada nas fórmulas do Microsoft Excel. É usada principalmente para definir a lógica e o comportamento em aplicativos de tela do Power Apps e está se expandindo para outros componentes da Power Platform.",
+        "c": "Uma linguagem de modelagem de dados usada para definir tabelas e relacionamentos no Microsoft Dataverse.",
+        "d": "Uma linguagem de consulta otimizada para criar visuais interativos no Power BI.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'modelo de IA' no AI Builder que pode ser usado para 'análise de sentimento' de texto?",
+        "a": "Prever o preço de um produto com base em suas características e dados de mercado.",
+        "b": "Determinar se um trecho de texto (como uma avaliação de cliente, um tweet ou um comentário em um fórum) expressa um sentimento positivo, negativo ou neutro.",
+        "c": "Extrair automaticamente tabelas de um documento PDF escaneado.",
+        "d": "Identificar o idioma principal de um documento de texto.",
+        "correct": "b"
+    },
+    {
+        "question": "Como a Power Platform ajuda as organizações a 'inovar mais rapidamente' e responder às mudanças do mercado?",
+        "a": "Aumentando a dependência de ciclos de desenvolvimento de software tradicionais, que são tipicamente longos e custosos.",
+        "b": "Permitindo que soluções de negócios (aplicativos, automações, copilotos, sites) sejam criadas, testadas e implantadas rapidamente com ferramentas de baixo código, reduzindo significativamente o tempo de lançamento no mercado e permitindo a prototipagem e iteração ágil.",
+        "c": "Limitando as opções de personalização e integração para garantir a padronização e evitar complexidade.",
+        "d": "Exigindo que todas as propostas de inovação passem por um comitê de aprovação centralizado e um processo de desenvolvimento formal.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'conector' que permite ao Power Apps interagir com o Microsoft Excel Online como fonte de dados?",
+        "a": "Conector do SQL Server para bancos de dados relacionais.",
+        "b": "Conector do Excel Online (Business) ou Excel Online (OneDrive), permitindo ler e escrever dados em planilhas armazenadas na nuvem.",
+        "c": "Conector do Twitter para interagir com a plataforma de mídia social.",
+        "d": "Conector do Salesforce para acessar dados de CRM.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual é a principal função do 'Power BI Embedded'?",
+        "a": "Uma versão gratuita e limitada do Power BI para uso pessoal e aprendizado.",
+        "b": "Permitir que desenvolvedores de software (ISVs) e organizações incorporem relatórios e dashboards interativos do Power BI diretamente em seus próprios aplicativos, sites e portais, oferecendo análises de dados para seus usuários finais sob sua própria marca.",
+        "c": "Uma ferramenta para criar e gerenciar modelos de dados complexos do Power BI.",
+        "d": "Um tipo de licença do Power BI projetado especificamente para pequenas empresas com poucos usuários.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'fluxo de trabalho' que pode ser eficientemente automatizado com Power Automate para melhorar a produtividade?",
+        "a": "Escrever manualmente e-mails de acompanhamento personalizados para cada novo lead de vendas, pesquisando informações individualmente.",
+        "b": "Um fluxo que, quando um novo lead é registrado no Dynamics 365 Sales, automaticamente cria uma tarefa de acompanhamento para um vendedor, envia um e-mail de boas-vindas padronizado para o lead e agenda um lembrete no calendário do vendedor para um contato posterior.",
+        "c": "Analisar manualmente grandes volumes de dados de vendas em uma planilha do Excel para identificar tendências e padrões.",
+        "d": "Criar manualmente relatórios de despesas a partir de uma pilha de recibos em papel, digitando cada item.",
+        "correct": "b"
+    },
+    {
+        "question": "O que é o 'Microsoft Learn' e qual sua relevância para aprender sobre a Power Platform?",
+        "a": "Um marketplace online onde as organizações podem comprar soluções e aplicativos da Power Platform pré-construídos.",
+        "b": "Uma plataforma de aprendizado online gratuita da Microsoft que oferece uma vasta gama de módulos interativos, trilhas de aprendizado, documentação e laboratórios práticos para a Power Platform e muitos outros produtos e tecnologias da Microsoft, sendo um recurso fundamental para adquirir e validar habilidades.",
+        "c": "Um fórum da comunidade online exclusivo para usuários avançados e desenvolvedores da Power Platform discutirem tópicos complexos.",
+        "d": "Uma ferramenta de desenvolvimento integrada à Power Platform para criar e testar código personalizado.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'modelo de IA' no AI Builder que pode ser usado para 'leitura de cartão de visita'?",
+        "a": "Classificação de imagens para identificar diferentes tipos de produtos.",
+        "b": "Extrair automaticamente informações de contato (como nome, cargo, empresa, telefone, e-mail) de imagens de cartões de visita.",
+        "c": "Detecção de anomalias em dados de transações financeiras.",
+        "d": "Tradução de texto de um cartão de visita de um idioma para outro.",
+        "correct": "b"
+    },
+    {
+        "question": "Como a Power Platform se integra com o Microsoft Azure Active Directory (Azure AD) para gerenciamento de identidades?",
+        "a": "A Power Platform utiliza seu próprio sistema de identidade completamente separado e independente do Azure AD.",
+        "b": "O Azure AD é o serviço de identidade fundamental usado para autenticação e autorização de usuários na Power Platform, garantindo acesso seguro a aplicativos, dados e recursos com base nas credenciais e políticas do Azure AD da organização.",
+        "c": "O Azure AD é usado apenas para gerenciar as licenças da Power Platform, mas não para autenticação de usuários.",
+        "d": "A integração com o Azure AD é opcional e raramente usada, pois a Power Platform possui mecanismos de segurança mais simples.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'tipo de aplicativo' que pode ser criado com Power Apps para atender a uma necessidade de negócios específica?",
+        "a": "Um driver de dispositivo para um novo hardware periférico.",
+        "b": "Um aplicativo de tela para que os funcionários de campo registrem inspeções de segurança ou um aplicativo orientado a modelo para uma equipe de vendas gerenciar leads e oportunidades.",
+        "c": "Um sistema operacional completo para dispositivos móveis ou desktops.",
+        "d": "Um software antivírus para proteger endpoints contra malware.",
+        "correct": "b"
+    },
+    {
+        "question": "No Power BI, o que é um 'KPI' (Key Performance Indicator) visual e qual seu propósito?",
+        "a": "Um tipo de filtro de dados avançado para segmentar informações.",
+        "b": "Um visual projetado especificamente para exibir o progresso em relação a uma meta mensurável, mostrando o valor atual, a meta e, muitas vezes, uma tendência ou status (ex: acima/abaixo da meta).",
+        "c": "Uma tabela de dados detalhada com todas as colunas de um conjunto de dados.",
+        "d": "Uma conexão com uma fonte de dados em tempo real para streaming de informações.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'fluxo de trabalho de notificação' que pode ser facilmente criado com Power Automate?",
+        "a": "Um fluxo que analisa dados de vendas para prever tendências futuras.",
+        "b": "Um fluxo que envia uma notificação por e-mail ou uma mensagem no Microsoft Teams para um gerente quando um funcionário submete um novo pedido de férias para aprovação.",
+        "c": "Um fluxo que cria um novo relatório do Power BI com base em dados atualizados.",
+        "d": "Um fluxo que treina um modelo de inteligência artificial para classificar imagens.",
+        "correct": "b"
+    },
+    {
+        "question": "O que é o 'Power Platform Well-Architected Framework'?",
+        "a": "Um conjunto de modelos de aplicativos pré-construídos e otimizados para desempenho.",
+        "b": "Um conjunto de princípios orientadores, melhores práticas e recomendações para projetar, construir e operar soluções robustas, seguras, eficientes, confiáveis e otimizadas em termos de custo na Power Platform.",
+        "c": "Uma ferramenta automatizada para verificar a conformidade de licenças da Power Platform.",
+        "d": "Um programa de certificação avançada para arquitetos de soluções da Power Platform.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'modelo de IA' no AI Builder que pode ser usado para 'detecção de idioma' em um texto?",
+        "a": "Converter uma gravação de fala em texto escrito.",
+        "b": "Identificar o idioma principal (ex: inglês, espanhol, francês) de um determinado bloco de texto.",
+        "c": "Traduzir automaticamente um texto de um idioma para outro.",
+        "d": "Analisar o sentimento (positivo, negativo, neutro) expresso em um texto.",
+        "correct": "b"
+    },
+    {
+        "question": "Como a Power Platform suporta a 'extensibilidade' para desenvolvedores profissionais (pro-devs)?",
+        "a": "Limitando todas as funcionalidades e personalizações a ferramentas de baixo código, sem permitir qualquer tipo de codificação.",
+        "b": "Permitindo que desenvolvedores profissionais criem conectores personalizados para APIs não suportadas nativamente, desenvolvam componentes de código reutilizáveis para Power Apps (usando o Power Apps component framework - PCF), e usem Azure Functions ou outras APIs para estender a lógica de negócios e as capacidades da plataforma.",
+        "c": "Exigindo que todo o código personalizado seja escrito exclusivamente na linguagem Power Fx.",
+        "d": "Não oferecendo opções de extensibilidade; a plataforma é um sistema fechado.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'tipo de dado' em uma coluna de uma tabela do Microsoft Dataverse que permite armazenar um link para uma linha em outra tabela relacionada (estabelecendo um relacionamento)?",
+        "a": "Texto de Linha Única (Single Line of Text) formatado como URL.",
+        "b": "Pesquisa (Lookup).",
+        "c": "Número Decimal (Decimal Number) com alta precisão.",
+        "d": "Sim/Não (Yes/No) para valores booleanos.",
+        "correct": "b"
+    },
+    {
+        "question": "No Power BI, o que é 'DirectQuery' como modo de conexão de dados?",
+        "a": "Um modo de importar todos os dados da fonte original para o modelo de dados do Power BI para melhor desempenho.",
+        "b": "Um modo de conexão de dados onde o Power BI envia consultas diretamente para a fonte de dados original em tempo real sempre que um visual é renderizado ou interagido, em vez de importar e armazenar os dados. É útil para dados muito grandes ou que mudam com frequência.",
+        "c": "Uma linguagem de consulta específica usada no Power Query Editor para transformar dados.",
+        "d": "Um tipo de visualização de dados otimizado para exibir consultas SQL.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'fluxo de trabalho de sincronização de dados' que pode ser criado com Power Automate?",
+        "a": "Um fluxo que analisa o sentimento de tweets recentes sobre uma marca.",
+        "b": "Um fluxo que, quando um novo cliente é adicionado ao sistema de CRM (como Dynamics 365), automaticamente cria um registro correspondente em uma lista do SharePoint usada para rastreamento de projetos ou em um sistema de faturamento.",
+        "c": "Um fluxo que envia um relatório diário de resumo de atividades por e-mail para a gerência.",
+        "d": "Um fluxo que responde automaticamente a perguntas frequentes em um canal do Microsoft Teams.",
+        "correct": "b"
+    },
+    {
+        "question": "O que é o 'Power Platform Community'?",
+        "a": "Um serviço de suporte técnico pago e dedicado para clientes empresariais da Power Platform.",
+        "b": "Uma comunidade online vibrante e global onde usuários, criadores, desenvolvedores e especialistas da Power Platform podem fazer perguntas, compartilhar conhecimento, encontrar soluções para desafios, aprender com os outros e se conectar com colegas da área.",
+        "c": "Um evento anual da Microsoft focado exclusivamente nas novidades e roteiro da Power Platform.",
+        "d": "Um conjunto de modelos de aplicativos e fluxos premium disponíveis para compra.",
+        "correct": "b"
+    },
+    {
+        "question": "Qual dos seguintes é um exemplo de um 'modelo de IA' no AI Builder que pode ser usado para 'extração de frases-chave' de um texto?",
+        "a": "Prever a probabilidade de um cliente clicar em um anúncio online.",
+        "b": "Identificar e extrair os principais pontos de discussão, tópicos ou termos significativos de um bloco de texto, como um artigo de notícias ou feedback de cliente.",
+        "c": "Detectar se uma imagem contém um produto específico ou um logotipo de marca.",
+        "d": "Processar os campos de um formulário de pedido de compra para extrair informações como número do pedido e itens.",
+        "correct": "b"
+    }
+]
